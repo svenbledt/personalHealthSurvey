@@ -16,25 +16,27 @@
 
       <hr />
 <!--hier kommen die einzelnen Eingaben hin-->
-  <form action="result.php" method="post">
-    <h3>Mikrowellen Zähler</h3>
+      <div class="eingabe">
+        <form action="result.php" method="post">
+          <h3>Mikrowellen Zähler</h3>
 
-    <label for="microwave">
-      An einem typischen Tag: Wie viele deiner
-      Malzeiten kommen aus der Mikrowelle
-      oder sind schon fertig zubereitet?  :
-    </label>
-    <input type="number" id="microwave" name="microwave"><br>
-  </form>
-
+          <label for="microwave">
+            An einem typischen Tag: Wie viele deiner
+            Malzeiten kommen aus der Mikrowelle
+            oder sind schon fertig zubereitet?  :
+          </label>
+          <input type="number" id="microwave" name="microwave"><br>
+        </form>
+      </div>
 <!--Ende-->
 <!--zurück und weiterleitung button-->
-    </div>
-    <div class="card-footer text-end">
-    <a href="#link" class="btn btn-primary" role="button">Zurück</a>
-      <button type="button" class="btn btn-primary">Weiter</button>
-    </div>
+    
+      <div class="card-footer text-end">
+        <a href="#link" class="btn btn-primary" role="button">Zurück</a>
+        <button type="button" class="btn btn-primary">Weiter</button>
+      </div>
 
+    </div>
   </div>
 </div>
 

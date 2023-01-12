@@ -15,11 +15,11 @@ $_SESSION['additionals']
       <div class="text-center">
         <i class="far fa-file-alt fa-4x mb-3 text-primary"></i>
         <p>
-          <strong>Your opinion matters</strong>
+          <strong>Deine Meinung zähl</strong>
         </p>
         <p>
-          Have some ideas how to improve our product?
-          <strong>Give us your feedback.</strong>
+          Haben Sie Ideen, wie wir unser Produkt verbessern können?
+          <strong>Gib uns dein Feedback.</strong>
         </p>
       </div>
 

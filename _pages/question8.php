@@ -6,33 +6,37 @@
       <div class="text-center">
         <i class="far fa-file-alt fa-4x mb-3 text-primary"></i>
         <p>
-          <strong>Your opinion matters</strong>
+          <strong>Deine Meinung zähl</strong>
         </p>
         <p>
-          Have some ideas how to improve our product?
-          <strong>Give us your feedback.</strong>
+          Haben Sie Ideen, wie wir unser Produkt verbessern können?
+          <strong>Gib uns dein Feedback.</strong>
         </p>
       </div>
 
       <hr />
+<!--hier kommen die einzelnen Eingaben hin-->
+  <form action="result.php" method="post">
+    <h3>Gemüse Zähler</h3>
 
-      <form class="px-4" action="POST">
-        <p class="text-center"><strong>Your rating:</strong></p>
+    <label for="vegetables">
+      An einem typischen Tag: Wie viele deiner
+      Malzeiten oder Snacks enthalten
+      Gemüse?  :
+    </label>
+    <input type="number" id="vegetables" name="vegetables"><br>
+  </form>
 
-        <div class="form-check mb-2">
-          <label for="customRange1" class="form-label">Example range</label>
-          <input type="range" class="form-range" min="1" max="5" step="1" id="customRange1">
-        </div>
-
-      </form>
+<!--Ende-->
+<!--zurück und weiterleitung button-->
     </div>
     <div class="card-footer text-end">
+    <a href="#link" class="btn btn-primary" role="button">Zurück</a>
       <button type="button" class="btn btn-primary">Weiter</button>
     </div>
+
   </div>
 </div>
-
-
 
 
 

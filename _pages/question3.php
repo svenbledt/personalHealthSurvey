@@ -6,8 +6,7 @@ if ($_POST['yesIDo'] == true) {
 } else {
   header("Location: index.php?seite=question2");
 }
-$_SESSION['additionals']
-  ?>
+?>
 <!-- SITE CONTENT -->
 <div class="mt-4 mx-0 mx-sm-auto">
   <div class="card">
@@ -25,18 +24,18 @@ $_SESSION['additionals']
 
       <hr />
 
-      <form class="px-4" action="POST">
+      <form class="px-4" action="index.php?seite=question4" method="POST">
         <p class="text-center"><strong>Your rating:</strong></p>
 
         <div class="form-check mb-2">
           <label for="customRange1" class="form-label">Example range</label>
           <input type="range" class="form-range" min="1" max="5" step="1" id="customRange1">
         </div>
-
+        <div class="card-footer text-end">
+          <a href="index.php?seite=question2" class="btn btn-primary" role="button">Zurück</a>
+          <button type="button" class="btn btn-primary">Weiter</button>
+        </div>
       </form>
-    </div>
-    <div class="card-footer text-end">
-      <button type="button" class="btn btn-primary">Weiter</button>
     </div>
   </div>
 </div>

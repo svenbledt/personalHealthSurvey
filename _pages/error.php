@@ -1,0 +1,1 @@
+﻿<?php echo '<center>Hallo Welt das ist eine Fehlerseite</center>';?>

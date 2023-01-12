@@ -21,7 +21,7 @@
 
         <div class="form-check mb-2">
           <label for="customRange1" class="form-label">Beispiel Reichweite ( 1-5 )</label>
-          <input type="range" class="form-range" min="1" max="5" step="1" id="customRange1">
+          <input name="range" type="range" class="form-range" min="1" max="5" step="1" id="customRange1">
         </div>
         <div class="text-end mx-3 my-3">
           <button type="submit" class="btn btn-primary">Weiter</button>

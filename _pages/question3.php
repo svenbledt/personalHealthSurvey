@@ -1,4 +1,13 @@
-<?php require('includes/header.php'); ?>
+<?php require('includes/header.php');
+if ($_POST['yesIDo'] == true) {
+  $_SESSION['additionals'] = true;
+} else if ($_POST['noIDont'] == true) {
+  $_SESSION['additionals'] = false;
+} else {
+  header("Location: index.php?seite=question2");
+}
+$_SESSION['additionals']
+  ?>
 <!-- SITE CONTENT -->
 <div class="mt-4 mx-0 mx-sm-auto">
   <div class="card">
@@ -37,4 +46,6 @@
 
 
 <!-- SITE CONTENT END -->
-<?php include('includes/footer.php'); ?>
+<?php include('includes/footer.php');
+print_r($_SESSION);
+?>

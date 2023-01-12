@@ -19,44 +19,46 @@
     <h3>  Welche zusätzliche körperliche Aktivität betreibst du am meisten?</h3>
     <br>
     <br>
+    <form action="result.php" method="post">
+        <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+          <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+          <label class="btn btn-outline-primary" for="btncheck1">Gewichte heben</label>
 
-    <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
-      <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-      <label class="btn btn-outline-primary" for="btncheck1">Gewichte heben</label>
+          <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+          <label class="btn btn-outline-primary" for="btncheck2">Gehen</label>
 
-      <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
-      <label class="btn btn-outline-primary" for="btncheck2">Gehen</label>
+          <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+          <label class="btn btn-outline-primary" for="btncheck3">Wandern</label>
 
-      <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
-      <label class="btn btn-outline-primary" for="btncheck3">Wandern</label>
+          <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
+          <label class="btn btn-outline-primary" for="btncheck4">Joggen</label>
 
-      <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
-      <label class="btn btn-outline-primary" for="btncheck4">Joggen</label>
+          <input type="checkbox" class="btn-check" id="btncheck5" autocomplete="off">
+          <label class="btn btn-outline-primary" for="btncheck5">Rennen</label>
 
-      <input type="checkbox" class="btn-check" id="btncheck5" autocomplete="off">
-      <label class="btn btn-outline-primary" for="btncheck5">Rennen</label>
+          <input type="checkbox" class="btn-check" id="btncheck6" autocomplete="off">
+          <label class="btn btn-outline-primary" for="btncheck6">Schwimmen</label>
 
-      <input type="checkbox" class="btn-check" id="btncheck6" autocomplete="off">
-      <label class="btn btn-outline-primary" for="btncheck6">Schwimmen</label>
+          <input type="checkbox" class="btn-check" id="btncheck7" autocomplete="off">
+          <label class="btn btn-outline-primary" for="btncheck7">Tanzen</label>
 
-      <input type="checkbox" class="btn-check" id="btncheck7" autocomplete="off">
-      <label class="btn btn-outline-primary" for="btncheck7">Tanzen</label>
+          <input type="checkbox" class="btn-check" id="btncheck8" autocomplete="off">
+          <label class="btn btn-outline-primary" for="btncheck8">Aerobics</label>
 
-      <input type="checkbox" class="btn-check" id="btncheck8" autocomplete="off">
-      <label class="btn btn-outline-primary" for="btncheck8">Aerobics</label>
+          <input type="checkbox" class="btn-check" id="btncheck9" autocomplete="off">
+          <label class="btn btn-outline-primary" for="btncheck9">Pilates</label>
 
-      <input type="checkbox" class="btn-check" id="btncheck9" autocomplete="off">
-      <label class="btn btn-outline-primary" for="btncheck9">Pilates</label>
+          <input type="checkbox" class="btn-check" id="btncheck10" autocomplete="off">
+          <label class="btn btn-outline-primary" for="btncheck10">Team Sport</label>
 
-      <input type="checkbox" class="btn-check" id="btncheck10" autocomplete="off">
-      <label class="btn btn-outline-primary" for="btncheck10">Team Sport</label>
-      <div>
-        <!--Braucht noch ein eingabefeld-->
-        <input type="checkbox" class="btn-check" id="btnchec11" autocomplete="off">
-        <label class="btn btn-outline-primary" for="btnchec11">Andere</label>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name"><br>
-      </div>
+          <div>
+          <!--Braucht noch ein eingabefeld-->
+          <input type="checkbox" class="btn-check" id="btnchec11" autocomplete="off">
+          <label class="btn btn-outline-primary" for="btnchec11">Andere</label>
+          <label for="akiv">Akivitäten:</label>
+          <input type="text" id="aktiv" name="aktiv"><br>
+        </div>
+      </form>
     </div>
 <!--Ende-->
 

@@ -16,6 +16,7 @@
 
       <hr />
 <!--hier kommen die einzelnen Eingaben hin-->
+  <form action="result.php" method="post">
     <h3>Gemüse Zähler</h3>
 
     <label for="vegetables">
@@ -24,7 +25,7 @@
       Gemüse?  :
     </label>
     <input type="number" id="vegetables" name="vegetables"><br>
-
+  </form>
 
 <!--Ende-->
 <!--zurück und weiterleitung button-->

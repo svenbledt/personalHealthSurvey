@@ -16,6 +16,7 @@
 
       <hr />
 <!--hier kommen die einzelnen Eingaben hin-->
+<form action="result.php" method="post">
      <h3>Kohlenhydrate Zähler</h3>
       <label for="carbohydrates">
         An einem typischen Tag: Wie viele deiner
@@ -23,7 +24,7 @@
         Kohlenhydrate?  :
       </label>
       <input type="number" id="carbohydrates" name="carbohydrates"><br>
-
+</form>
 <!--Ende-->
 <!--zurück und weiterleitung button-->
     </div>

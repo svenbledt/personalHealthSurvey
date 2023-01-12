@@ -10,24 +10,24 @@
         </p>
         <p>
           Have some ideas how to improve our product?
-          <strong>Give us your feedback.</strong>
+          <strong>Triff deine Wahl!</strong>
         </p>
       </div>
 
       <hr />
 
-      <form class="px-4" action="POST">
-        <p class="text-center"><strong>Your rating:</strong></p>
+      <form class="px-4" action="question2.php" method="POST">
+        <p class="text-center"><strong>Deine Bewertung:</strong></p>
 
         <div class="form-check mb-2">
-          <label for="customRange1" class="form-label">Example range</label>
+          <label for="customRange1" class="form-label">Beispiel Reichweite ( 1-5 )</label>
           <input type="range" class="form-range" min="1" max="5" step="1" id="customRange1">
         </div>
 
       </form>
     </div>
-    <div class="card-footer text-end">
-      <button type="button" class="btn btn-primary">Weiter</button>
+    <div class="text-end mx-3 my-3">
+    <button type="submit" class="btn btn-primary">Weiter</button>
     </div>
   </div>
 </div>

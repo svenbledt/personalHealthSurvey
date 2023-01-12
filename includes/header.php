@@ -1,6 +1,6 @@
 ﻿<!doctype html>
 <html lang="en" class="h-100">
-
+<?php require('config.php'); ?>
 <head>
     <title>PageTitle</title>
     <!-- Required meta tags -->

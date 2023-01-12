@@ -33,7 +33,7 @@ if ($_POST['yesIDo'] == true) {
         </div>
         <div class="card-footer text-end">
           <a href="index.php?seite=question2" class="btn btn-primary" role="button">Zurück</a>
-          <button type="button" class="btn btn-primary">Weiter</button>
+          <button type="submit" class="btn btn-primary">Weiter</button>
         </div>
       </form>
     </div>

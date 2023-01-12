@@ -16,12 +16,14 @@
 
       <hr />
 <!--hier kommen die einzelnen Eingaben hin-->
-    <label for="vegetables">
+    <h3>Mikrowellen Zähler</h3>
+
+    <label for="microwave">
       An einem typischen Tag: Wie viele deiner
       Malzeiten kommen aus der Mikrowelle
       oder sind schon fertig zubereitet?  :
     </label>
-    <input type="number" id="vegetables" name="vegetables"><br>
+    <input type="number" id="microwave" name="microwave"><br>
 
 
 <!--Ende-->

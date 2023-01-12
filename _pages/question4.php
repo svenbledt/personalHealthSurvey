@@ -16,6 +16,10 @@
 
       <hr />
 <!--hier kommen die einzelnen Eingaben hin-->
+    <h3>  Welche zusätzliche körperliche Aktivität betreibst du am meisten?</h3>
+    <br>
+    <br>
+
     <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
       <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
       <label class="btn btn-outline-primary" for="btncheck1">Gewichte heben</label>
@@ -59,6 +63,7 @@
 
 <!--Ende-->
 <!--zurück und weiterleitung button-->
+
     </div>
     <div class="card-footer text-end">
     <a href="#link" class="btn btn-primary" role="button">Zurück</a>

@@ -16,6 +16,8 @@
 
       <hr />
 <!--hier kommen die einzelnen Eingaben hin-->
+    <h3>Gemüse Zähler</h3>
+
     <label for="vegetables">
       An einem typischen Tag: Wie viele deiner
       Malzeiten oder Snacks enthalten

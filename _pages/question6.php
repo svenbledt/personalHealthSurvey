@@ -16,7 +16,7 @@
 
       <hr />
 <!--hier kommen die einzelnen Eingaben hin-->
-     
+     <h3>Kohlenhydrate Zähler</h3>
       <label for="carbohydrates">
         An einem typischen Tag: Wie viele deiner
         Malzeiten oder Snacks enthalten

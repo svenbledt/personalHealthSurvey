@@ -15,24 +15,25 @@
       </div>
 
       <hr />
+<!--hier kommen die einzelnen Eingaben hin-->
+     
+      <label for="carbohydrates">
+        An einem typischen Tag: Wie viele deiner
+        Malzeiten oder Snacks enthalten
+        Kohlenhydrate?  :
+      </label>
+      <input type="number" id="carbohydrates" name="carbohydrates"><br>
 
-      <form class="px-4" action="POST">
-        <p class="text-center"><strong>Your rating:</strong></p>
-
-        <div class="form-check mb-2">
-          <label for="customRange1" class="form-label">Example range</label>
-          <input type="range" class="form-range" min="1" max="5" step="1" id="customRange1">
-        </div>
-
-      </form>
+<!--Ende-->
+<!--zurück und weiterleitung button-->
     </div>
     <div class="card-footer text-end">
+    <a href="#link" class="btn btn-primary" role="button">Zurück</a>
       <button type="button" class="btn btn-primary">Weiter</button>
     </div>
+
   </div>
 </div>
-
-
 
 
 

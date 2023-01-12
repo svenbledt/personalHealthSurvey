@@ -16,24 +16,6 @@
 
       <hr />
 <!--hier kommen die einzelnen Eingaben hin-->
-<?php require('includes/header.php'); ?>
-<!-- SITE CONTENT -->
-<div class="mt-4 mx-0 mx-sm-auto">
-  <div class="card">
-    <div class="card-body">
-      <div class="text-center">
-        <i class="far fa-file-alt fa-4x mb-3 text-primary"></i>
-        <p>
-          <strong>Your opinion matters</strong>
-        </p>
-        <p>
-          Have some ideas how to improve our product?
-          <strong>Give us your feedback.</strong>
-        </p>
-      </div>
-
-      <hr />
-<!--hier kommen die einzelnen Eingaben hin-->
     <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
       <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
       <label class="btn btn-outline-primary" for="btncheck1">Gewichte heben</label>
@@ -73,20 +55,8 @@
       </div>
     </div>
 <!--Ende-->
-<!--zurück und weiterleitung button-->
-    </div>
-    <div class="card-footer text-end"
-    <a href="#link" class="btn btn-primary" role="button">Zurück</a>
-      <button type="button" class="btn btn-primary">Weiter</button>
-    </div>
-
-  </div>
-</div>
 
 
-
-<!-- SITE CONTENT END -->
-<?php include('includes/footer.php'); ?>
 <!--Ende-->
 <!--zurück und weiterleitung button-->
     </div>

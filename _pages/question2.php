@@ -37,7 +37,7 @@
 <!--zurück und weiterleitung button-->
     </div>
     <div class="card-footer text-end">
-    <a href="#link" class="btn btn-primary" role="button">Zurück</a>
+        <a href="#link" class="btn btn-primary" role="button">Zurück</a>
       <button type="button" class="btn btn-primary">Weiter</button>
     </div>
 

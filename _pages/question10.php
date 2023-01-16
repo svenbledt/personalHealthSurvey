@@ -17,7 +17,7 @@
       <hr />
       <!--hier kommen die einzelnen Eingaben hin-->
       <div class="eingabe">
-        <form action="result.php" method="post">
+      <form class="px-4" action="index.php?seite=summary" method="POST">
           <h3>Mikrowellen Zähler</h3>
 
           <label for="microwave">
@@ -31,7 +31,7 @@
             </div>
             <input type="number" name="microwave" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
           </div>
-          <div class="card-footer text-end">
+          <div class="text-end mx-3 my-3">
             <a href="index.php?seite=question9" class="btn btn-primary" role="button">Zurück</a>
             <button type="button" class="btn btn-primary">Fertig</button>
           </div>

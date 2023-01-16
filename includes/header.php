@@ -2,7 +2,7 @@
 <html lang="en" class="h-100">
 <?php require('config.php'); ?>
 <head>
-    <title>PageTitle</title>
+    <title>BLEBLABEL</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -34,7 +34,7 @@
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Fixed navbar</a>
+            <a class="navbar-brand" href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABLCAYAAAA4TnrqAAAAAXNSR0IArs4c6QAABUFJREFUeF7tmodOKzsQhmfpovfeexe8/ysgARKEGghEBFIgkNDbHv2+8mqvyYadxInu1ZmRkFAya89+nmpwtra2XBIJRcARWKE4KSWBFZ6VwGKwElgCi0OAoSs5S2AxCDBUxbMEFoMAQ1U8S2AxCDBUxbMEFoMAQ1U8S2AxCDBUxbMEFoMAQ1U8S2AxCDBUxbM4sFzXZf/B4vDwkJ6enhjb/HdUBwYGaHR0tCSDHIEVnpvACs+KnHw+756enjIeIfr+/qYSope1R6WUHcehmpoa9vK1tbXkZLNZNxqNsh/+2x4YHx8nJ5PJuLFY7G97d9b7tra20sLCAjnJZNKNx+Osh8tR7unpocnJSW+JRCJB19fXvy45MTFBvb29nh5Sx8PDw6/PlauAkF1aWqKmpiZyEomEC4OrKbOzs9TR0aG2RP6LRCL09vYWaEJLSwstLi5632cyGbq4uKiKyUNDQzQ8PKz2cuLxuJtMJquysd6kvr6elpeXqa6uTn2Uy+Xo5OSkoA1IyADV3Nysvn9/f1dwv76+Km5zQ0MDrayseAXBicViLk6q2tLd3U1TU1Petufn53R3d/fDjP7+fhobG/M+B1TArYbAPtipD9SJRqMuNseHCA2cIMok5PPzk56fn5Vxt7e3KmRsyszMDHV2dqolPz4+aH9//18eAw/EyWp70uk0XV5e2jQhVOijTTo4OCAnnU67MFiHRNDTeBkUgmw2a81YMxxNGNPT09TV1eWFH2DaPrCgl5mfn6e2tjb1NRwFHcOPDh4U8RPUuF1dXdHNzY01YGY44gThze3t7TQ3N+ftc3x8TPl83tq+xRYCJMCCgAUOCQVIwcIvqVRKlWJdleD6eAiDJ/oMv9gu234PAqijoyNVABobG9W2sK2a7Y3fq5BHkU8hTiqVUn1WsfFlZGSEBgcHPV4ACtq2Rh6kAOQmnQoATFc/7IXqV63ww77oq7Tg4B4fH/+BFfbfJP29ER7EiHR/f28tLJCb4GGm+I21tlmRhdAwo3GGvLy8qIPSEhqW2RhWIjSQo5CrtPhDoBqg4Nlra2tevkblRdFhw8IDGxsbXhkv1kiW8mJoAJGndJuANdC64GRRiashfX19hIFZy+7urrKhJFirq6te0sVNKW5MbYnpVXpdhHq1bkX8ib3Q+4UOQxgPF4UHQFDGUc5tiP9EUTQw9/mHbfQ46HUqKQjB9fV1wngFKdQihYaFvgthqBezlU/M8NO3EBhxMOpAMAei+lYyHM0Co/s9/wGFhoUuH+OJFrQbSPLlij/8Xl9fVY6CdyF3IYdpT0YPyL3R5djmPxzsv729/aM1cnZ2dlx/Eiu0gTn5Q2dvb6/otUoYQ3E/hXsqLWabYB5QJcMRvZXu7cyWwUvwuVxO3cEHNX0AhQrhv3jDfHh2dhaGR6COGX5BQ7J/2EY4wvNwTWNbNjc3vZYhKMV44w7mPbi6zgtIeBh30Llr4jAQXoh4Ltdgf/gVunHQMEyotlsW7IM9ULy0BN3esgZpgEIZ1+1/qadrht9v04B5p4VqafMOzj84452C8nHovxviRGFkuR5lekrYPgq3pZgidHW0GY64x8M4pyUoNzqRSMRF2cTNAqZ8hB+qAfIDhlh4EXIUhlsb4p8xOS0BUgGA6dbFZp9nXhMhHxe6twvdOtgA9X9fQ2AxTlBgCSwGAYaqeJbAYhBgqIpnCSwGAYaqeJbAYhBgqIpnCSwGAYaqeJbAYhBgqIpnCSwGAYaqeJbAYhBgqIpnCSwGAYaqeJbAYhBgqIpnCSwGAYaqeJbAYhBgqP4B+Ph8n73djkoAAAAASUVORK5CYII="></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -86,4 +86,4 @@
         </div>
     </nav>
 
-    <main class="flex-shrink-0">
+    <main class="mt-5 flex-shrink-0">

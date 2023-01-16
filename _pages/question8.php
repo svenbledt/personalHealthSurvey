@@ -16,7 +16,7 @@
 
       <hr />
       <!--hier kommen die einzelnen Eingaben hin-->
-      <form action="result.php" method="post">
+      <form class="px-4" action="index.php?seite=question9" method="POST">
         <h3>Gemüse Zähler</h3>
 
         <label for="vegetables">
@@ -24,8 +24,14 @@
           Malzeiten oder Snacks enthalten
           Gemüse? :
         </label>
-        <input type="number" id="vegetables" name="vegetables"><br>
-        <div class="card-footer text-end">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Anzahl</span>
+          </div>
+          <input type="number" name="microwave" class="form-control" aria-label="Default"
+            aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="text-end mx-3 my-3">
           <a href="index.php?seite=question7" class="btn btn-primary" role="button">Zurück</a>
           <button type="button" class="btn btn-primary">Weiter</button>
         </div>

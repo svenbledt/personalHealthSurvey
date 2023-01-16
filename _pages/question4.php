@@ -19,7 +19,7 @@
       <h3> Welche zusätzliche körperliche Aktivität betreibst du am meisten?</h3>
       <br>
       <br>
-      <form action="result.php" method="post">
+      <form class="px-4" action="index.php?seite=question5" method="post">
         <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
 
           <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
@@ -50,24 +50,19 @@
           <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Pilates</label>
 
           <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
-          <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Team Sport</label>
-          <div>
-      </form>
-
-      <form>
-        <div>
-          <!--Braucht noch ein eingabefeld-->
-          <input type="checkbox" class="btn-check" id="btncheck10" autocomplete="off">
-          <label class="btn btn-outline-primary mx-3 my-3" for="btncheck10">Team Sport</label>
-
-          <label for="akiv">Akivitäten:</label>
-          <input type="text" id="aktiv" name="aktiv"><br>
         </div>
-        <div class="card-footer text-end">
+
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Aktivität</span>
+          </div>
+          <input type="Text" name="microwave" class="form-control" aria-label="Default"
+            aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="text-end mx-3 my-3">
           <a href="index.php?seite=question3" class="btn btn-primary" role="button">Zurück</a>
           <button type="button" class="btn btn-primary">Weiter</button>
         </div>
-
       </form>
     </div>
   </div>
@@ -78,11 +73,6 @@
   <!--zurück und weiterleitung button-->
 
 </div>
-
-</div>
-</div>
-
-
 
 <!-- SITE CONTENT END -->
 <?php include('includes/footer.php');

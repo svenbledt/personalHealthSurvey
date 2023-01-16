@@ -38,7 +38,7 @@ if (isset($_POST['range'])) {
               Nein gar nicht
             </label>
           </div>
-          <div class="text-end mx-3 my-3">
+          <div class="text-end my-3">
             <a href="index.php?seite=index" class="btn btn-primary" role="button">Zurück</a>
             <button type="submit" class="btn btn-primary">Weiter</button>
           </div>

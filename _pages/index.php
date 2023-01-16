@@ -28,7 +28,7 @@
 
 <span id="range-slider__value">0</span>
           </div>
-          <div class="text-end mx-3 my-3">
+          <div class="text-end my-3">
             <button type="submit" class="btn btn-primary">Weiter</button>
           </div>
         </form>

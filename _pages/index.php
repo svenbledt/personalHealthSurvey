@@ -26,7 +26,7 @@
             <label for="fader" class="form-label">Sehr Gesund</label>
             <input id="range-slider__range" type="range" value="0" min="1" max="5">
 
-<span id="range-slider__value">0</span>
+            <span id="range-slider__value">0</span>
           </div>
           <div class="text-end mx-3 my-3">
             <button type="submit" class="btn btn-primary">Weiter</button>

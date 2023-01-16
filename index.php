@@ -1,5 +1,5 @@
 ﻿<?php
-error_reporting(0); 
+error_reporting(E_ALL); 
 session_start();
 
 header('Content-Type: text/html; charset=UTF-8');

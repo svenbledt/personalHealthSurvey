@@ -57,6 +57,30 @@
                         <a class="nav-link<?php if ($_SERVER['REQUEST_URI'] === '/index.php?seite=question4') {
                             echo ' active';} ?>" href="index.php?seite=question4">Frage 4</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link<?php if ($_SERVER['REQUEST_URI'] === '/index.php?seite=question5') {
+                            echo ' active';} ?>" href="index.php?seite=question5">Frage 5</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link<?php if ($_SERVER['REQUEST_URI'] === '/index.php?seite=question6') {
+                            echo ' active';} ?>" href="index.php?seite=question6">Frage 6</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link<?php if ($_SERVER['REQUEST_URI'] === '/index.php?seite=question7') {
+                            echo ' active';} ?>" href="index.php?seite=question7">Frage 7</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link<?php if ($_SERVER['REQUEST_URI'] === '/index.php?seite=question8') {
+                            echo ' active';} ?>" href="index.php?seite=question8">Frage 8</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link<?php if ($_SERVER['REQUEST_URI'] === '/index.php?seite=question9') {
+                            echo ' active';} ?>" href="index.php?seite=question9">Frage 9</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link<?php if ($_SERVER['REQUEST_URI'] === '/index.php?seite=question10') {
+                            echo ' active';} ?>" href="index.php?seite=question10">Frage 10</a>
+                    </li>
                 </ul>
             </div>
         </div>

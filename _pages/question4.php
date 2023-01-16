@@ -15,70 +15,71 @@
       </div>
 
       <hr />
-<!--hier kommen die einzelnen Eingaben hin-->
-    <h3>  Welche zusätzliche körperliche Aktivität betreibst du am meisten?</h3>
-    <br>
-    <br>
+      <!--hier kommen die einzelnen Eingaben hin-->
+      <h3> Welche zusätzliche körperliche Aktivität betreibst du am meisten?</h3>
+      <br>
+      <br>
       <form action="result.php" method="post">
-          <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+        <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
 
-            <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
-            <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Gewichte heben</label>
+          <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
+          <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Gewichte heben</label>
 
-            <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
-            <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Gehen</label>
+          <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
+          <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Gehen</label>
 
-            <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
-            <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Wandern</label>
+          <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
+          <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Wandern</label>
 
-            <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
-            <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Joggen</label>
+          <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
+          <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Joggen</label>
 
-            <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
-            <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Rennen</label>
+          <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
+          <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Rennen</label>
 
-            <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
-            <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Schwimmen</label>
+          <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
+          <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Schwimmen</label>
 
-            <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
-            <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Tanzen</label>
+          <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
+          <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Tanzen</label>
 
-            <input type="checkbox" class="btn-check" id="btncheck8" autocomplete="off">
-            <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Aerobics</label>
+          <input type="checkbox" class="btn-check" id="btncheck8" autocomplete="off">
+          <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Aerobics</label>
 
-            <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
-            <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Pilates</label>
+          <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
+          <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Pilates</label>
 
-            <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
-            <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Team Sport</label>
-            <div>
-          </form>
+          <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
+          <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Team Sport</label>
+          <div>
+      </form>
 
-          <form>
-            <div>
-              <!--Braucht noch ein eingabefeld-->
-              <input type="checkbox" class="btn-check" id="btncheck10" autocomplete="off">
-              <label class="btn btn-outline-primary mx-3 my-3" for="btncheck10">Team Sport</label>
+      <form>
+        <div>
+          <!--Braucht noch ein eingabefeld-->
+          <input type="checkbox" class="btn-check" id="btncheck10" autocomplete="off">
+          <label class="btn btn-outline-primary mx-3 my-3" for="btncheck10">Team Sport</label>
 
-              <label for="akiv">Akivitäten:</label>
-              <input type="text" id="aktiv" name="aktiv"><br>
-            </div>
-          </form>
-      </div>
+          <label for="akiv">Akivitäten:</label>
+          <input type="text" id="aktiv" name="aktiv"><br>
+        </div>
+        <div class="card-footer text-end">
+          <a href="index.php?seite=question3" class="btn btn-primary" role="button">Zurück</a>
+          <button type="button" class="btn btn-primary">Weiter</button>
+        </div>
+
+      </form>
     </div>
-<!--Ende-->
-
-
-<!--Ende-->
-<!--zurück und weiterleitung button-->
-
-    </div>
-    <div class="card-footer text-end">
-    <a href="#link" class="btn btn-primary" role="button">Zurück</a>
-      <button type="button" class="btn btn-primary">Weiter</button>
-    </div>
-
   </div>
+  <!--Ende-->
+
+
+  <!--Ende-->
+  <!--zurück und weiterleitung button-->
+
+</div>
+
+</div>
 </div>
 
 

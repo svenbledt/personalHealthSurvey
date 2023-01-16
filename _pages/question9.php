@@ -23,12 +23,13 @@
           <label for="customRange1" class="form-label">Example range</label>
           <input type="range" class="form-range" min="1" max="5" step="1" id="customRange1">
         </div>
-
+        <div class="card-footer text-end">
+          <a href="index.php?seite=question8" class="btn btn-primary" role="button">Zurück</a>
+          <button type="button" class="btn btn-primary">Weiter</button>
+        </div>
       </form>
     </div>
-    <div class="card-footer text-end">
-      <button type="button" class="btn btn-primary">Weiter</button>
-    </div>
+
   </div>
 </div>
 

@@ -15,26 +15,25 @@
       </div>
 
       <hr />
-<!--hier kommen die einzelnen Eingaben hin-->
-  <form action="result.php" method="post">
-    <h3>Gemüse Zähler</h3>
+      <!--hier kommen die einzelnen Eingaben hin-->
+      <form action="result.php" method="post">
+        <h3>Gemüse Zähler</h3>
 
-    <label for="vegetables">
-      An einem typischen Tag: Wie viele deiner
-      Malzeiten oder Snacks enthalten
-      Gemüse?  :
-    </label>
-    <input type="number" id="vegetables" name="vegetables"><br>
-  </form>
+        <label for="vegetables">
+          An einem typischen Tag: Wie viele deiner
+          Malzeiten oder Snacks enthalten
+          Gemüse? :
+        </label>
+        <input type="number" id="vegetables" name="vegetables"><br>
+        <div class="card-footer text-end">
+          <a href="index.php?seite=question7" class="btn btn-primary" role="button">Zurück</a>
+          <button type="button" class="btn btn-primary">Weiter</button>
+        </div>
+      </form>
 
-<!--Ende-->
-<!--zurück und weiterleitung button-->
+      <!--Ende-->
+      <!--zurück und weiterleitung button-->
     </div>
-    <div class="card-footer text-end">
-    <a href="#link" class="btn btn-primary" role="button">Zurück</a>
-      <button type="button" class="btn btn-primary">Weiter</button>
-    </div>
-
   </div>
 </div>
 

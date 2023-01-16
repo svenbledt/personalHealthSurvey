@@ -17,7 +17,7 @@
 
         <hr />
 
-        <form class="px-4" action="index.php?seite=question8" method="POST">
+        <form class="anzahl px-4" action="index.php?seite=question8" method="POST">
           <h3>Protein Zähler</h3>
           <label for="carbohydrates">
             An einem typischen Tag: Wie viele deiner

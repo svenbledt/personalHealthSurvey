@@ -18,7 +18,7 @@
         <hr />
         <!--hier kommen die einzelnen Eingaben hin-->
         <div class="eingabe">
-          <form class="px-4" action="index.php?seite=summary" method="POST">
+          <form class="anzahl px-4" action="index.php?seite=summary" method="POST">
             <h3>Mikrowellen Zähler</h3>
 
             <label for="microwave">

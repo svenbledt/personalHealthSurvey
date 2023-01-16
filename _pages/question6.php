@@ -18,7 +18,7 @@
 
         <hr />
         <!--hier kommen die einzelnen Eingaben hin-->
-        <form class="px-4" action="index.php?seite=question7" method="POST">
+        <form class="anzahl px-4" action="index.php?seite=question7" method="POST">
           <h3>Kohlenhydrate Zähler</h3>
           <label for="carbohydrates">
             An einem typischen Tag: Wie viele deiner

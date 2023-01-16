@@ -17,9 +17,9 @@
 
         <hr />
 
-        <form class="px-4" action="index.php?seite=question6" method="POST">
+        <form class="slide px-4" action="index.php?seite=question6" method="POST">
         <h3>Gefühl zu meinen Aktivitäten</h3>
-          <p class="text-center"><strong>Hast du das Gefühl, zu wenig, genügend oder viel zu viel zusätzliche körperliche Aktivitäten zu betreiben?:</strong></p>
+          <p><strong>Hast du das Gefühl, zu wenig, genügend oder viel zu viel zusätzliche körperliche Aktivitäten zu betreiben?:</strong></p>
 
           <div class="form-check mb-2">
             <label for="fader" class="form-label">Viel zu wenig </label>
@@ -29,7 +29,7 @@
 
             <span id="range-slider__value">0</span>
           </div>
-          <div class="text-end mx-3 my-3">
+          <div class="text-end my-3">
             <button type="submit" class="btn btn-primary">Weiter</button>
           </div>
         </form>

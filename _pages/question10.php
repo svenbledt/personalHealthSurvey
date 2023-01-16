@@ -15,26 +15,32 @@
       </div>
 
       <hr />
-<!--hier kommen die einzelnen Eingaben hin-->
+      <!--hier kommen die einzelnen Eingaben hin-->
       <div class="eingabe">
-        <form action="result.php" method="post">
+      <form class="px-4" action="index.php?seite=summary" method="POST">
           <h3>Mikrowellen Zähler</h3>
 
           <label for="microwave">
             An einem typischen Tag: Wie viele deiner
             Malzeiten kommen aus der Mikrowelle
-            oder sind schon fertig zubereitet?  :
+            oder sind schon fertig zubereitet? :
           </label>
-          <input type="number" id="microwave" name="microwave"><br>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-default">Anzahl</span>
+            </div>
+            <input type="number" name="microwave" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+          </div>
+          <div class="text-end mx-3 my-3">
+            <a href="index.php?seite=question9" class="btn btn-primary" role="button">Zurück</a>
+            <button type="button" class="btn btn-primary">Fertig</button>
+          </div>
         </form>
       </div>
-<!--Ende-->
-<!--zurück und weiterleitung button-->
-    
-      <div class="card-footer text-end">
-        <a href="#link" class="btn btn-primary" role="button">Zurück</a>
-        <button type="button" class="btn btn-primary">Weiter</button>
-      </div>
+      <!--Ende-->
+      <!--zurück und weiterleitung button-->
+
+
 
     </div>
   </div>
@@ -43,4 +49,6 @@
 
 
 <!-- SITE CONTENT END -->
-<?php include('includes/footer.php'); ?>
+<?php include('includes/footer.php');
+print_r($_SESSION);
+?>

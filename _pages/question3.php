@@ -1,10 +1,10 @@
 <?php require('includes/header.php');
-if ($_POST['yesIDo'] == true) {
-  $_SESSION['additionals'] = true;
-} else if ($_POST['noIDont'] == true) {
+if ($_POST['noIDont'] == true) {
   $_SESSION['additionals'] = false;
-} else {
-  header("Location: index.php?seite=question2");
+  header('Location: index.php?seite=question4');
+} else if ($_POST['yesIDo'] == true) {
+  $_SESSION['additionals'] = true;
+  header('Location: index.php?seite=question4');
 }
 ?>
 <!-- SITE CONTENT -->
@@ -31,7 +31,7 @@ if ($_POST['yesIDo'] == true) {
           <label for="customRange1" class="form-label">Example range</label>
           <input type="range" class="form-range" min="1" max="5" step="1" id="customRange1">
         </div>
-        <div class="card-footer text-end">
+        <div class="text-end mx-3 my-3">
           <a href="index.php?seite=question2" class="btn btn-primary" role="button">Zurück</a>
           <button type="submit" class="btn btn-primary">Weiter</button>
         </div>

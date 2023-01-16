@@ -22,14 +22,12 @@
           <p><strong>Wie Gesund bist du Körperlich:</strong></p>
 
           <div class="form-check mb-2">
-            <label for="fader" class="form-label">Krank</label>
-            <label class="" style="text-align: end;">Gesund</label>
-            <label for="fader" class="form-label">Sehr Gesund</label>
+            <label for="range-slider__range" id="stance" class="form-label">Ich bin Krank</label>
             <input id="range-slider__range" type="range" value="0" min="1" max="5">
 
             <span id="range-slider__value">0</span>
           </div>
-          <div class="text-end mx-3 my-3">
+          <div class="text-end my-3">
             <button type="submit" class="btn btn-primary">Weiter</button>
           </div>
         </form>

@@ -30,6 +30,7 @@
             <span id="range-slider__value">0</span>
           </div>
           <div class="text-end my-3">
+            <a href="index.php?seite=question4" class="btn btn-primary" role="button">Zurück</a>
             <button type="submit" class="btn btn-primary">Weiter</button>
           </div>
         </form>

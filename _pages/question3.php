@@ -1,10 +1,12 @@
 <?php require('includes/header.php');
-if ($_POST['noIDont'] == true) {
-  $_SESSION['additionals'] = false;
-  header('Location: index.php?seite=question4');
-} else if ($_POST['yesIDo'] == true) {
-  $_SESSION['additionals'] = true;
-  header('Location: index.php?seite=question4');
+if (isset($_POST)) {
+  if ($_POST['noIDont'] == true) {
+    $_SESSION['additionals'] = false;
+    header('Location: index.php?seite=question4');
+  } else if ($_POST['yesIDo'] == true) {
+    $_SESSION['additionals'] = true;
+    header('Location: index.php?seite=question4');
+  }
 }
 ?>
 <!-- SITE CONTENT -->
@@ -37,7 +39,8 @@ if ($_POST['noIDont'] == true) {
 
             <span id="range-slider__value">0</span>
           </div>
-          <div class="text-end mx-3 my-3">
+          <div class="text-end my-3">
+            <a href="index.php?seite=question2" class="btn btn-primary" role="button">Zurück</a>
             <button type="submit" class="btn btn-primary">Weiter</button>
           </div>
         </form>

@@ -1,5 +1,7 @@
 <?php require('includes/header.php');
+if (isset($_POST['range'])){
 $_SESSION['range'] = $_POST['range'];
+}
 ?>
 
 <!-- SITE CONTENT -->

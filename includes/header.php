@@ -42,16 +42,20 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link<?php if ($_SERVER['REQUEST_URI'] === '/index.php?seite=index') {
+                            echo ' active';} ?>" aria-current="page" href="index.php?seite=index">Frage 1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php?">Home</a>
+                        <a class="nav-link<?php if ($_SERVER['REQUEST_URI'] === '/index.php?seite=question2') {
+                            echo ' active';} ?>" href="index.php?seite=question2">Frage 2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php?seite=start">Start</a>
+                        <a class="nav-link<?php if ($_SERVER['REQUEST_URI'] === '/index.php?seite=question3') {
+                            echo ' active';} ?>" href="index.php?seite=question3">Frage 3</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php?seite=zurueck">Zurück</a>
+                        <a class="nav-link<?php if ($_SERVER['REQUEST_URI'] === '/index.php?seite=question4') {
+                            echo ' active';} ?>" href="index.php?seite=question4">Frage 4</a>
                     </li>
                 </ul>
             </div>

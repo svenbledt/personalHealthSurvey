@@ -1,10 +1,8 @@
 <?php require('includes/header.php');
-if ($_POST['yesIDo'] == true) {
-  $_SESSION['additionals'] = true;
-} else if ($_POST['noIDont'] == true) {
+if ($_POST['noIDont'] == true) {
   $_SESSION['additionals'] = false;
-} else {
-  header("Location: index.php?seite=question2");
+} else if ($_POST['yesIDo'] == true) {
+  $_SESSION['additionals'] = true;
 }
 ?>
 <!-- SITE CONTENT -->

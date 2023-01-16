@@ -7,22 +7,26 @@
         <div class="text-center">
           <i class="far fa-file-alt fa-4x mb-3 text-primary"></i>
           <p>
-            <strong>Your opinion matters</strong>
+            <strong>Wie gesund bist du Wirklich?</strong>
           </p>
           <p>
-            Have some ideas how to improve our product?
-            <strong>Triff deine Wahl!</strong>
+            Weist du wirklich wie gesund du bist?<br>
+            <strong>Triff deine Wahl und finde es heraus!</strong>
           </p>
         </div>
 
         <hr />
 
         <form class="px-4" action="index.php?seite=question2" method="POST">
-          <p class="text-center"><strong>Deine Bewertung:</strong></p>
+          <p class="text-center"><strong>Wie Gesund bist du Körperlich:</strong></p>
 
           <div class="form-check mb-2">
-            <label for="fader" class="pull-left">Beispiel Reichweite ( 1-5 )</label>
-            <input name="range" type="range" class="form-range" min="1" max="5" step="1" id="fader">
+            <label for="fader" class="form-label">Krank</label>
+            <label class="" style="text-align: end;">Gesund</label>
+            <label for="fader" class="form-label">Sehr Gesund</label>
+            <input id="range-slider__range" type="range" value="0" min="1" max="5">
+
+<span id="range-slider__value">0</span>
           </div>
           <div class="text-end mx-3 my-3">
             <button type="submit" class="btn btn-primary">Weiter</button>

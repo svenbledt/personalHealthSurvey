@@ -1,5 +1,8 @@
 ﻿<?php
-//define functions here
+$URI = $_SERVER['REQUEST_URI'];
+if (str_contains($URI, '/_pages/') || str_contains($URI, '/img/') || str_contains($URI, '/includes/') || str_contains($URI, '/js/')){
+    header('Location: index.php');
+}
 
 // Session Controller
 if (isset($_SESSION['LAST_ACTIVITY']) && (time() - $_SESSION['LAST_ACTIVITY'] > 1800)) {

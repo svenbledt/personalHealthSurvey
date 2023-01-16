@@ -35,7 +35,11 @@ body{
 
 /*ende*/
 /*question4.php*/
-
+#button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 
 
 /*ende*/

@@ -35,7 +35,7 @@
             </div>
             <div class="text-end mx-3 my-3">
               <a href="index.php?seite=question9" class="btn btn-primary" role="button">Zurück</a>
-              <button type="button" class="btn btn-primary">Fertig</button>
+              <button type="submit" class="btn btn-primary">Fertig</button>
             </div>
           </form>
         </div>
@@ -49,4 +49,5 @@
 <!-- SITE CONTENT END -->
 <?php include('includes/footer.php');
 print_r($_SESSION);
+print_r($_POST);
 ?>

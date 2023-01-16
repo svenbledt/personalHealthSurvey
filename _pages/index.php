@@ -21,8 +21,8 @@
           <p class="text-center"><strong>Deine Bewertung:</strong></p>
 
           <div class="form-check mb-2">
-            <label for="customRange1" class="form-label">Beispiel Reichweite ( 1-5 )</label>
-            <input name="range" type="range" class="form-range" min="1" max="5" step="1" id="customRange1">
+            <label for="fader" class="pull-left">Beispiel Reichweite ( 1-5 )</label>
+            <input name="range" type="range" class="form-range" min="1" max="5" step="1" id="fader">
           </div>
           <div class="text-end mx-3 my-3">
             <button type="submit" class="btn btn-primary">Weiter</button>

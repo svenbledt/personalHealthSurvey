@@ -18,41 +18,42 @@
 
         <hr />
         <!--hier kommen die einzelnen Eingaben hin-->
-        <h3> Welche zusätzliche körperliche Aktivität betreibst du am meisten?</h3>
+        <h3> Welche zusätzliche körperliche Aktivität/en betreibst du am meisten?</h3>
         <br>
         <br>
         <form class="px-4" action="index.php?seite=question5" method="post">
-          <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+          <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" value="1" autocomplete="off" checked>
+            <label class="btn btn-outline-primary my-3" for="btnradio1">Gewichte heben</label>
 
-            <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
-            <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Gewichte heben</label>
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" value="2" autocomplete="off">
+            <label class="btn btn-outline-primary my-3" for="btnradio2">Gehen</label>
 
-            <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
-            <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Gehen</label>
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" value="3" autocomplete="off">
+            <label class="btn btn-outline-primary my-3" for="btnradio3">Wandern</label>
 
-            <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
-            <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Wandern</label>
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio4" value="4" autocomplete="off">
+            <label class="btn btn-outline-primary my-3" for="btnradio4">Joggen</label>
 
-            <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
-            <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Joggen</label>
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio5" value="5" autocomplete="off">
+            <label class="btn btn-outline-primary my-3" for="btnradio5">Rennen</label>
 
-            <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
-            <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Rennen</label>
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio6" value="6" autocomplete="off">
+            <label class="btn btn-outline-primary my-3" for="btnradio6">Schwimmen</label>
 
-            <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
-            <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Schwimmen</label>
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio7" value="7" autocomplete="off">
+            <label class="btn btn-outline-primary my-3" for="btnradio7">Tanzen</label>
 
-            <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
-            <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Tanzen</label>
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio8" value="8" autocomplete="off">
+            <label class="btn btn-outline-primary my-3" for="btnradio8">Aerobic</label>
 
-            <input type="checkbox" class="btn-check" id="btncheck8" autocomplete="off">
-            <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Aerobics</label>
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio9" value="9" autocomplete="off">
+            <label class="btn btn-outline-primary my-3" for="btnradio9">Pilates</label>
 
-            <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
-            <label class="btn btn-outline-primary mx-3 my-3" for="btncheck">Pilates</label>
-
-            <input type="checkbox" class="btn-check" id="btncheck" autocomplete="off">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio10" value="10" autocomplete="off">
+            <label class="btn btn-outline-primary my-3" for="btnradio10">Team Sport</label>
           </div>
+
 
           <div class="input-group mb-3">
             <div class="input-group-prepend">
@@ -63,7 +64,7 @@
           </div>
           <div class="text-end mx-3 my-3">
             <a href="index.php?seite=question3" class="btn btn-primary" role="button">Zurück</a>
-            <button type="button" class="btn btn-primary">Weiter</button>
+            <button type="submit" class="btn btn-primary">Weiter</button>
           </div>
         </form>
       </div>
@@ -80,4 +81,5 @@
 <!-- SITE CONTENT END -->
 <?php include('includes/footer.php');
 print_r($_SESSION);
+print_r($_POST);
 ?>

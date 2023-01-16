@@ -1,7 +1,23 @@
+:root {
+    --bs-body-bg: rgba(2, 173, 196, 0);
+    --bs-body-color: white;
+    --bs-secondary-color:rgba(255, 255, 255, 0.55);
+}
+
 body{
     background-image: url(../img/bg.png);
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
+}
+
+.input-group-text{
+    color: rgb(100, 100, 100);
+}
+
+.logo{
+    height: 6vh;
+    width: 6vh;
 }
 /*Index.php*/
 

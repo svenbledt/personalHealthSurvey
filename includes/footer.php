@@ -1,5 +1,5 @@
 ﻿</main>
-    <footer class="footer mt-auto py-3 bg-light sticky-footer">
+    <footer class="footer mt-auto py-3 bg-dark sticky-footer">
         <div class="container-fluid text-center">
             <span class="text-muted">&copy; Mogendar & Trojan <?php echo date('Y');?></span>
         </div>

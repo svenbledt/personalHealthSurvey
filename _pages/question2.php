@@ -1,8 +1,5 @@
 <?php
 $pagename = "Frage 2";
-if (isset($_POST['range'])) {
-  $_SESSION['range_home'] = $_POST['range'];
-}
 require('includes/header.php');
 ?>
 
@@ -56,7 +53,4 @@ require('includes/header.php');
 
 
 <!-- SITE CONTENT END -->
-<?php include('includes/footer.php');
-print_r($_SESSION);
-print_r($_POST);
-?>
+<?php include('includes/footer.php');?>

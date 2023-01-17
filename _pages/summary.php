@@ -1,9 +1,6 @@
 <?php
 $pagename = "Zusammenfassung";
 require('includes/header.php');
-if (isset($_POST['microwave5'])) {
-    $_SESSION['meals_mw'] = $_POST['microwave5'];
-}
 if (isset($_POST['name']) && $_POST['name'] != '') {
     $_SESSION['name'] = $_POST['name'];
 } else if (isset($_SESSION['name'])) {
@@ -26,10 +23,11 @@ if ($arraycheck < 11) {
                         <h5 class="my-3">
                             <?php echo $_SESSION['name']; ?>
                         </h5>
-                        <div class="d-flex justify-content-center mb-2">
-                            <button type="button" onclick="deleteAllCookies()" class="btn btn-primary">Zurücksetzen</button>
-                        </div>
                         <p class="text-muted mb-1">Testobjekt</p>
+                        <div class="d-flex justify-content-center mb-2">
+                            <button type="button" onclick="deleteAllCookies()"
+                                class="btn btn-primary">Zurücksetzen</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -68,8 +66,10 @@ if ($arraycheck < 11) {
                                 </div>
                                 <p class="mt-4 mb-1" style="font-size: .77rem;">3. Körperliche Aktivitäten</p>
                                 <div class="progress rounded" style="height: 5px;">
-                                    <div class="progress-bar" role="progressbar" style="width: 89%" aria-valuenow="89"
-                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar" role="progressbar"
+                                        style="width: <?php echo ($_SESSION['range_3'] * 20); ?>%"
+                                        aria-valuenow="<?php echo ($_SESSION['range_3'] * 20); ?>" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
                                 </div>
                                 <p class="mt-4 mb-1" style="font-size: .77rem;"> 4. Zusätzliche Aktivitäten</p>
                                 <div class="progress rounded" style="height: 5px;">
@@ -78,8 +78,10 @@ if ($arraycheck < 11) {
                                 </div>
                                 <p class="mt-4 mb-1" style="font-size: .77rem;"> 5. Menge an Aktivität</p>
                                 <div class="progress rounded" style="height: 5px;">
-                                    <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="55"
-                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar" role="progressbar"
+                                        style="width: <?php echo ($_SESSION['range_5'] * 20); ?>%"
+                                        aria-valuenow="<?php echo ($_SESSION['range_5'] * 20); ?>" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
                                 </div>
                             </div>
                         </div>

@@ -1,9 +1,6 @@
 <?php
 $pagename = "Frage 9";
 require('includes/header.php');
-if (isset($_POST['microwave3'])) {
-  $_SESSION['meals_veg'] = $_POST['microwave3'];
-}
 ?>
 <!-- SITE CONTENT -->
 <div class="mt-4 mx-0 mx-sm-auto">
@@ -51,7 +48,4 @@ if (isset($_POST['microwave3'])) {
 
 
 <!-- SITE CONTENT END -->
-<?php include('includes/footer.php');
-print_r($_SESSION);
-print_r($_POST);
-?>
+<?php include('includes/footer.php');?>

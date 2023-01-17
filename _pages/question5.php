@@ -1,12 +1,6 @@
 <?php
 $pagename = "Frage 5";
 require('includes/header.php');
-if (isset($_POST['btnradio'])) {
-  $_SESSION['plus_activity'] = $_POST['btnradio'];
-}
-if (isset($_POST['custom_a'])) {
-  $_SESSION['custom_a'] = $_POST['custom_a'];
-}
 ?>
 <script src="../js/validation/slider_5.js" type="text/javascript" defer></script>
 <!-- SITE CONTENT -->
@@ -33,7 +27,7 @@ if (isset($_POST['custom_a'])) {
 
           <div class="form-check mb-2">
             <label for="range-slider__range" id="stance" class="form-label">0</label>
-            <input id="range-slider__range" name="range" onchange="sliderOnChange()" type="range" value="1" min="1"
+            <input id="range-slider__range" name="range3" onchange="sliderOnChange()" type="range" value="1" min="1"
               max="5">
             <input type="hidden" name="range-slider-changed" id="range-slider-changed">
             <span id="range-slider__value">0</span>
@@ -48,7 +42,4 @@ if (isset($_POST['custom_a'])) {
   </div>
 </div>
 <!-- SITE CONTENT END -->
-<?php include('includes/footer.php');
-print_r($_SESSION);
-print_r($_POST);
-?>
+<?php include('includes/footer.php');?>

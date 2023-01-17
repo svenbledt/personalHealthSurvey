@@ -14,11 +14,11 @@ if (isset($_POST['range'])) {
         <div class="text-center">
           <i class="far fa-file-alt fa-4x mb-3 text-primary"></i>
           <p>
-            <strong>Deine Meinung zähl</strong>
+            <strong>Wie gesund bist du Wirklich?</strong>
           </p>
           <p>
             Haben Sie Ideen, wie wir unser Produkt verbessern können?<br>
-            <strong>Gib uns dein Feedback.</strong>
+            <strong>Triff deine Wahl und finde es heraus!</strong>
           </p>
         </div>
 

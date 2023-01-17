@@ -14,11 +14,11 @@ require('includes/header.php');
         <div class="text-center">
           <i class="far fa-file-alt fa-4x mb-3 text-primary"></i>
           <p>
-            <strong>Your opinion matters</strong>
+            <strong>Wie gesund bist du Wirklich?</strong>
           </p>
           <p>
             Have some ideas how to improve our product?<br>
-            <strong>Give us your feedback.</strong>
+            <strong>Triff deine Wahl und finde es heraus!</strong>
           </p>
         </div>
 

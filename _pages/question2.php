@@ -17,7 +17,7 @@ require('includes/header.php');
             <strong>Your opinion matters</strong>
           </p>
           <p>
-            Have some ideas how to improve our product?
+            Have some ideas how to improve our product?<br>
             <strong>Give us your feedback.</strong>
           </p>
         </div>

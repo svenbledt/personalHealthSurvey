@@ -16,7 +16,7 @@ if (isset($_POST['microwave4'])) {
             <strong>Deine Meinung zählt</strong>
           </p>
           <p>
-            Haben Sie Ideen, wie wir unser Produkt verbessern können?
+            Haben Sie Ideen, wie wir unser Produkt verbessern können?<br>
             <strong>Gib uns dein Feedback.</strong>
           </p>
         </div>

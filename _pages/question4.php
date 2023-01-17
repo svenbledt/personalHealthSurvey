@@ -17,7 +17,7 @@ if (isset($_POST['range'])) {
             <strong>Deine Meinung zähl</strong>
           </p>
           <p>
-            Haben Sie Ideen, wie wir unser Produkt verbessern können?
+            Haben Sie Ideen, wie wir unser Produkt verbessern können?<br>
             <strong>Gib uns dein Feedback.</strong>
           </p>
         </div>

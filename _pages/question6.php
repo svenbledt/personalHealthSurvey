@@ -29,7 +29,7 @@ if (isset($_POST['range'])) {
           <label for="carbohydrates">
             An einem typischen Tag: Wie viele deiner
             Malzeiten oder Snacks enthalten
-            Kohlenhydrate? :
+            Kohlenhydrate?
           </label>
           <div class="input-group mb-3">
             <div class="input-group-prepend">

@@ -84,11 +84,11 @@ $arraycheck = count($_SESSION);
                         } ?>" href="index.php?seite=question10">Frage 10</a>
                     </li>
                     <?php if ($arraycheck > 10) { ?>
-                    <li class="nav-item">
-                        <a class="nav-link<?php if ($_SERVER['REQUEST_URI'] === '/index.php?seite=summary') {
-                            echo ' active';
-                        } ?>" href="index.php?seite=summary">Zusammenfassung</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link<?php if ($_SERVER['REQUEST_URI'] === '/index.php?seite=summary') {
+                                echo ' active';
+                            } ?>" href="index.php?seite=summary">Zusammenfassung</a>
+                        </li>
                     <?php } ?>
                 </ul>
             </div>

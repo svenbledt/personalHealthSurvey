@@ -29,7 +29,7 @@ if (isset($_POST)) {
         <hr />
 
         <form class="px-4" action="index.php?seite=question4" method="POST" onsubmit="return validateRange();">
-          <h3>Priorität :</h3>
+          <h3>Priorität:</h3>
           <p><strong>Wie wichtig ist deine Körperliche Aktivität:</strong></p>
 
           <div class="form-check mb-2">

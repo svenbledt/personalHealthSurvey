@@ -29,7 +29,7 @@ if (isset($_POST)) {
 
         <hr />
 
-        <form class="slide px-4" action="index.php?seite=question2" method="POST">
+        <form class="px-4" action="index.php?seite=question2" method="POST">
         <h3>Gesundheit :</h3>
           <p><strong>Wie Gesund bist du Körperlich:</strong></p>
 

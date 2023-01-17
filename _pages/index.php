@@ -21,7 +21,7 @@ require('includes/header.php');
 
         <hr />
 
-        <form class="slide px-4" action="index.php?seite=question2" method="POST" onsubmit="return validateRange();">
+        <form class="px-4" action="index.php?seite=question2" method="POST" onsubmit="return validateRange();">
         <h3>Gesundheit :</h3>
           <p><strong>Wie Gesund bist du Körperlich:</strong></p>
 

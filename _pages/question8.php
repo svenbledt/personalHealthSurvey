@@ -20,7 +20,7 @@ require('includes/header.php');
 
         <hr />
         <!--hier kommen die einzelnen Eingaben hin-->
-        <form class="anzahl px-4" action="index.php?seite=question9" method="POST">
+        <form class="px-4" action="index.php?seite=question9" method="POST">
           <h3>Gemüse Zähler</h3>
 
           <label for="vegetables">

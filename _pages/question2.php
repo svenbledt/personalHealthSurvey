@@ -24,7 +24,7 @@ require('includes/header.php');
 
         <hr />
         <!--hier kommen die einzelnen Eingaben hin-->
-        <form class="radio px-4" action="index.php?seite=question3" method="POST">
+        <form class="px-4" action="index.php?seite=question3" method="POST">
           <p class="text-center"><strong>Your rating:</strong></p>
 
           <h3>Nimmst du Narungsergänzungsmittel ?</h3>

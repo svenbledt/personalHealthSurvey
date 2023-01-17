@@ -24,7 +24,7 @@ require('includes/header.php');
           <h3>Protein Zähler</h3>
           <label for="carbohydrates">
             An einem typischen Tag: Wie viele deiner
-            Malzeiten oder Snacks enthalten Protein?:
+            Malzeiten oder Snacks enthalten Protein?
           </label>
           <div class="input-group mb-3">
             <div class="input-group-prepend">

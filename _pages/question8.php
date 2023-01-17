@@ -26,7 +26,7 @@ require('includes/header.php');
           <label for="vegetables">
             An einem typischen Tag: Wie viele deiner
             Malzeiten oder Snacks enthalten
-            Gemüse? :
+            Gemüse?
           </label>
           <div class="input-group mb-3">
             <div class="input-group-prepend">

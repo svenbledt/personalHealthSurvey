@@ -22,7 +22,7 @@ require('includes/header.php');
 
         <form class="px-4" action="index.php?seite=question6" method="POST">
         <h3>Gefühl zu meinen Aktivitäten</h3>
-          <p><strong>Hast du das Gefühl, zu wenig, genügend oder viel zu viel zusätzliche körperliche Aktivitäten zu betreiben?:</strong></p>
+          <p><strong>Hast du das Gefühl, zu wenig, genügend oder viel zu viel zusätzliche körperliche Aktivitäten zu betreiben?</strong></p>
 
           <div class="form-check mb-2">
             <label for="fader" class="form-label">Viel zu wenig </label>

@@ -27,7 +27,7 @@ require('includes/header.php');
             <label for="microwave">
               An einem typischen Tag: Wie viele deiner
               Malzeiten kommen aus der Mikrowelle
-              oder sind schon fertig zubereitet? :
+              oder sind schon fertig zubereitet?
             </label>
             <div class="input-group mb-3">
               <div class="input-group-prepend">

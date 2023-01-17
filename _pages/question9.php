@@ -24,7 +24,7 @@ require('includes/header.php');
           <h3>Frucht Zähler</h3>
           <label for="carbohydrates">
             An einem typischen Tag: Wie viele deiner
-            Malzeiten oder Snacks enthalten Früchte?:
+            Malzeiten oder Snacks enthalten Früchte?
           </label>
           <div class="input-group mb-3">
             <div class="input-group-prepend">

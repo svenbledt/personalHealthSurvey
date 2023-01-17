@@ -27,14 +27,12 @@ if (isset($_POST)) {
 
         <hr />
 
-        <form class="px-4" action="index.php?seite=question4" method="POST">
-        <h3>Wichtigkeit Körperliche Aktivität</h3>
-          <p class="text-center"><strong>Wie wichtig ist köperliche Aktivität für dich?:</strong></p>
+        <form class="slide px-4" action="index.php?seite=question2" method="POST">
+        <h3>Gesundheit :</h3>
+          <p><strong>Wie Gesund bist du Körperlich:</strong></p>
 
           <div class="form-check mb-2">
-            <label for="fader" class="form-label">nicht wichtig</label>
-            <label class="" style="text-align: end;">wichtig</label>
-            <label for="fader" class="form-label">Sehr wichtig</label>
+            <label for="range-slider__range" id="stance" class="form-label">Ich bin Krank</label>
             <input id="range-slider__range" type="range" value="0" min="1" max="5">
 
             <span id="range-slider__value">0</span>

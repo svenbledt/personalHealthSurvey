@@ -1,4 +1,7 @@
-<?php require('includes/header.php'); ?>
+<?php
+$pagename = "Frage 9";
+require('includes/header.php');
+?>
 <!-- SITE CONTENT -->
 <div class="mt-4 mx-0 mx-sm-auto">
   <div class="container-md">

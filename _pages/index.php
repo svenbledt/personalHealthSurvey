@@ -1,4 +1,8 @@
-﻿<?php require('includes/header.php'); ?>
+﻿<?php
+$pagename = "Hauptseite";
+require('includes/header.php');
+?>
+<script src="../js/validation/slider.js" type="text/javascript" defer></script>
 <!-- SITE CONTENT -->
 <div class="mt-4 mx-0 mx-sm-auto">
   <div class="container-md">
@@ -17,14 +21,14 @@
 
         <hr />
 
-        <form class="slide px-4" action="index.php?seite=question2" method="POST">
+        <form class="slide px-4" action="index.php?seite=question2" method="POST" onsubmit="return validateRange();">
         <h3>Gesundheit :</h3>
           <p><strong>Wie Gesund bist du Körperlich:</strong></p>
 
           <div class="form-check mb-2">
             <label for="range-slider__range" id="stance" class="form-label">Ich bin Krank</label>
-            <input id="range-slider__range" type="range" value="0" min="1" max="5">
-
+            <input id="range-slider__range" name="range" onchange="sliderOnChange()" type="range" value="1" min="1" max="5">
+            <input type="hidden" name="range-slider-changed" id="range-slider-changed">
             <span id="range-slider__value">0</span>
           </div>
           <div class="text-end my-3">

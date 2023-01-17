@@ -1,5 +1,5 @@
 ﻿<?php
 include('functions.php');
 
-$sitename = 'Frieel';
+$sitename = "Frieel";
 ; ?>

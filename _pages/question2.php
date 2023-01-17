@@ -1,7 +1,7 @@
-<?php 
+<?php
 $pagename = "Frage 2";
 if (isset($_POST['range'])) {
-  $_SESSION['range'] = $_POST['range'];
+  $_SESSION['range_home'] = $_POST['range'];
 }
 require('includes/header.php');
 ?>

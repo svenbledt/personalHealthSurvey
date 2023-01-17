@@ -1,9 +1,12 @@
 ﻿<!doctype html>
 <html lang="en" class="h-100">
-<?php require('config.php'); ?>
+<?php
+require('config.php');
+$arraycheck = count($_SESSION);
+?>
 
 <head>
-    <title><?php echo "$sitename - $pagename";?></title>
+    <title><?php echo "$sitename - $pagename"; ?></title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -80,6 +83,13 @@
                             echo ' active';
                         } ?>" href="index.php?seite=question10">Frage 10</a>
                     </li>
+                    <?php if ($arraycheck > 10) { ?>
+                    <li class="nav-item">
+                        <a class="nav-link<?php if ($_SERVER['REQUEST_URI'] === '/index.php?seite=summary') {
+                            echo ' active';
+                        } ?>" href="index.php?seite=summary">Zusammenfassung</a>
+                    </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>

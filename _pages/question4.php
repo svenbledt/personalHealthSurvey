@@ -1,6 +1,10 @@
-<?php 
+<?php
 $pagename = "Frage 4";
-require('includes/header.php'); ?>
+require('includes/header.php');
+if (isset($_POST['range'])) {
+  $_SESSION['range_3'] = $_POST['range'];
+}
+?>
 <!-- SITE CONTENT -->
 <div class="mt-4 mx-0 mx-sm-auto">
   <div class="container-md">
@@ -59,7 +63,7 @@ require('includes/header.php'); ?>
             <div class="input-group-prepend">
               <span class="input-group-text" id="inputGroup-sizing-default">Aktivität</span>
             </div>
-            <input type="Text" name="microwave" class="form-control" aria-label="Default"
+            <input type="Text" name="custom_a" class="form-control" aria-label="Default"
               aria-describedby="inputGroup-sizing-default">
           </div>
           <div class="text-end my-3">

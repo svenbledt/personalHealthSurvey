@@ -1,6 +1,9 @@
 <?php
 $pagename = "Frage 9";
 require('includes/header.php');
+if (isset($_POST['microwave3'])) {
+  $_SESSION['meals_veg'] = $_POST['microwave3'];
+}
 ?>
 <!-- SITE CONTENT -->
 <div class="mt-4 mx-0 mx-sm-auto">
@@ -30,8 +33,8 @@ require('includes/header.php');
             <div class="input-group-prepend">
               <span class="input-group-text" id="inputGroup-sizing-default">Anzahl</span>
             </div>
-            <input type="number" name="microwave" class="form-control" aria-label="Default"
-              aria-describedby="inputGroup-sizing-default">
+            <input type="number" name="microwave4" class="form-control" aria-label="Default"
+              aria-describedby="inputGroup-sizing-default" required>
           </div>
           <div class="text-end my-3">
             <a href="index.php?seite=question8" class="btn btn-primary" role="button">Zurück</a>

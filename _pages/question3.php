@@ -1,4 +1,6 @@
-<?php require('includes/header.php');
+<?php 
+$pagename = "Frage 3";
+require('includes/header.php');
 if (isset($_POST)) {
   if ($_POST['noIDont'] == true) {
     $_SESSION['additionals'] = false;

@@ -1,6 +1,9 @@
 <?php
 $pagename = "Frage 6";
 require('includes/header.php');
+if (isset($_POST['range'])) {
+  $_SESSION['range_5'] = $_POST['range'];
+}
 ?>
 <!-- SITE CONTENT -->
 <div class="mt-4 mx-0 mx-sm-auto">
@@ -21,8 +24,8 @@ require('includes/header.php');
 
         <hr />
         <!--hier kommen die einzelnen Eingaben hin-->
-        <form class="anzahl px-4" action="index.php?seite=question7" method="POST">
-          <h3>Kohlenhydrate Zähler</h3>
+        <form class="px-4" action="index.php?seite=question7" method="POST">
+          <h3>Kohlenhydrate Zähler</h3>anzahl
           <label for="carbohydrates">
             An einem typischen Tag: Wie viele deiner
             Malzeiten oder Snacks enthalten
@@ -33,7 +36,7 @@ require('includes/header.php');
               <span class="input-group-text" id="inputGroup-sizing-default">Anzahl</span>
             </div>
             <input type="number" name="microwave" class="form-control" aria-label="Default"
-              aria-describedby="inputGroup-sizing-default">
+              aria-describedby="inputGroup-sizing-default" required>
           </div>
           <div class="text-end my-3">
             <a href="index.php?seite=question5" class="btn btn-primary" role="button">Zurück</a>

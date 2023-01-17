@@ -1,6 +1,9 @@
 <?php
 $pagename = "Frage 10";
 require('includes/header.php');
+if (isset($_POST['microwave4'])) {
+  $_SESSION['meals_fr'] = $_POST['microwave4'];
+}
 ?>
 <!-- SITE CONTENT -->
 <div class="mt-4 mx-0 mx-sm-auto">
@@ -21,7 +24,7 @@ require('includes/header.php');
         <hr />
         <!--hier kommen die einzelnen Eingaben hin-->
         <div class="eingabe">
-          <form class="anzahl px-4" action="index.php?seite=summary" method="POST">
+          <form class="px-4" action="index.php?seite=summary" method="POST">
             <h3>Mikrowellen Zähler</h3>
 
             <label for="microwave">
@@ -33,9 +36,16 @@ require('includes/header.php');
               <div class="input-group-prepend">
                 <span class="input-group-text" id="inputGroup-sizing-default">Anzahl</span>
               </div>
-              <input type="number" name="microwave" class="form-control" aria-label="Default"
-                aria-describedby="inputGroup-sizing-default">
+              <input type="number" name="microwave5" class="form-control" aria-label="Default"
+                aria-describedby="inputGroup-sizing-default" required>
             </div>
+            <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-default">Gib bitte noch deinen Namen ein.</span>
+            </div>
+            <input type="Text" name="name" class="form-control" aria-label="Default"
+              aria-describedby="inputGroup-sizing-default" required>
+          </div>
             <div class="text-end my-3">
               <a href="index.php?seite=question9" class="btn btn-primary" role="button">Zurück</a>
               <button type="submit" class="btn btn-primary">Fertig</button>

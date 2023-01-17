@@ -11,7 +11,10 @@ require('includes/header.php');
         <div class="text-center">
           <i class="far fa-file-alt fa-4x mb-3 text-primary"></i>
           <p>
-            <strong>Wie gesund bist du Wirklich?</strong>
+            <?php if ($_GET['arraycheck'] == true) { ?>
+              <strong><script>alert("Bitte fülle alle Fragen aus. Du scheinst etwas vergessen zu haben.");</script></strong>
+            <?php } ?>
+              <strong>Wie gesund bist du Wirklich?</strong>
           </p>
           <p>
             Weist du wirklich wie gesund du bist?<br>
@@ -21,13 +24,14 @@ require('includes/header.php');
 
         <hr />
 
-        <form class="slide px-4" action="index.php?seite=question2" method="POST" onsubmit="return validateRange();">
-        <h3>Gesundheit :</h3>
+        <form class="px-4" action="index.php?seite=question2" method="POST" onsubmit="return validateRange();">
+          <h3>Gesundheit :</h3>
           <p><strong>Wie Gesund bist du Körperlich:</strong></p>
 
           <div class="form-check mb-2">
             <label for="range-slider__range" id="stance" class="form-label">Ich bin Krank</label>
-            <input id="range-slider__range" name="range" onchange="sliderOnChange()" type="range" value="1" min="1" max="5">
+            <input id="range-slider__range" name="range" onchange="sliderOnChange()" type="range" value="1" min="1"
+              max="5">
             <input type="hidden" name="range-slider-changed" id="range-slider-changed">
             <span id="range-slider__value">0</span>
           </div>

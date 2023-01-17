@@ -1,16 +1,15 @@
-<?php 
+<?php
 $pagename = "Frage 3";
 require('includes/header.php');
 if (isset($_POST)) {
   if ($_POST['noIDont'] == true) {
     $_SESSION['additionals'] = false;
-    header('Location: index.php?seite=question4');
   } else if ($_POST['yesIDo'] == true) {
     $_SESSION['additionals'] = true;
-    header('Location: index.php?seite=question4');
   }
 }
 ?>
+<script src="../js/validation/slider_3.js" type="text/javascript" defer></script>
 <!-- SITE CONTENT -->
 <div class="mt-4 mx-0 mx-sm-auto">
   <div class="container-md">
@@ -19,26 +18,25 @@ if (isset($_POST)) {
         <div class="text-center">
           <i class="far fa-file-alt fa-4x mb-3 text-primary"></i>
           <p>
-            <strong>Deine Meinung zähl</strong>
+            <strong>Wie gesund bist du Wirklich?</strong>
           </p>
           <p>
-            Haben Sie Ideen, wie wir unser Produkt verbessern können?
-            <strong>Gib uns dein Feedback.</strong>
+            Wie wichtig ist Körperliche Aktivität für dich?<br>
+            <strong>Triff deine Wahl und finde es heraus!</strong>
           </p>
         </div>
 
         <hr />
 
-        <form class="px-4" action="index.php?seite=question4" method="POST">
-        <h3>Wichtigkeit Körperliche Aktivität</h3>
-          <p class="text-center"><strong>Wie wichtig ist köperliche Aktivität für dich?:</strong></p>
+        <form class="px-4" action="index.php?seite=question4" method="POST" onsubmit="return validateRange();">
+          <h3>Priorität :</h3>
+          <p><strong>Wie wichtig ist deine Körperliche Aktivität:</strong></p>
 
           <div class="form-check mb-2">
-            <label for="fader" class="form-label">nicht wichtig</label>
-            <label class="" style="text-align: end;">wichtig</label>
-            <label for="fader" class="form-label">Sehr wichtig</label>
-            <input id="range-slider__range" type="range" value="0" min="1" max="5">
-
+            <label for="range-slider__range" id="stance" class="form-label">0</label>
+            <input id="range-slider__range" name="range" onchange="sliderOnChange()" type="range" value="1" min="1"
+              max="5">
+            <input type="hidden" name="range-slider-changed" id="range-slider-changed">
             <span id="range-slider__value">0</span>
           </div>
           <div class="text-end my-3">
@@ -50,11 +48,6 @@ if (isset($_POST)) {
     </div>
   </div>
 </div>
-
-
-
-
-
 <!-- SITE CONTENT END -->
 <?php include('includes/footer.php');
 print_r($_SESSION);

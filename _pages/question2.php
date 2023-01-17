@@ -1,7 +1,7 @@
-<?php 
+<?php
 $pagename = "Frage 2";
 if (isset($_POST['range'])) {
-  $_SESSION['range'] = $_POST['range'];
+  $_SESSION['range_home'] = $_POST['range'];
 }
 require('includes/header.php');
 ?>
@@ -24,7 +24,7 @@ require('includes/header.php');
 
         <hr />
         <!--hier kommen die einzelnen Eingaben hin-->
-        <form class="radio px-4" action="index.php?seite=question3" method="POST">
+        <form class="px-4" action="index.php?seite=question3" method="POST">
           <p class="text-center"><strong>Your rating:</strong></p>
 
           <h3>Nimmst du Narungsergänzungsmittel ?</h3>

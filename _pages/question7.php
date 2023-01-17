@@ -1,6 +1,9 @@
-<?php 
+<?php
 $pagename = "Frage 7";
-require('includes/header.php'); 
+require('includes/header.php');
+if (isset($_POST['microwave'])) {
+  $_SESSION['meals_kh'] = $_POST['microwave'];
+}
 ?>
 <!-- SITE CONTENT -->
 <div class="mt-4 mx-0 mx-sm-auto">
@@ -20,18 +23,18 @@ require('includes/header.php');
 
         <hr />
 
-        <form class="anzahl px-4" action="index.php?seite=question8" method="POST">
+        <form class="px-4" action="index.php?seite=question8" method="POST">
           <h3>Protein Zähler</h3>
           <label for="carbohydrates">
             An einem typischen Tag: Wie viele deiner
-            Malzeiten oder Snacks enthalten Protein?:
+            Malzeiten oder Snacks enthalten Protein?:anzahl
           </label>
           <div class="input-group mb-3">
             <div class="input-group-prepend">
               <span class="input-group-text" id="inputGroup-sizing-default">Anzahl</span>
             </div>
-            <input type="number" name="microwave" class="form-control" aria-label="Default"
-              aria-describedby="inputGroup-sizing-default">
+            <input type="number" name="microwave2" class="form-control" aria-label="Default"
+              aria-describedby="inputGroup-sizing-default" required>
           </div>
           <div class="text-end my-3">
             <a href="index.php?seite=question6" class="btn btn-primary" role="button">Zurück</a>

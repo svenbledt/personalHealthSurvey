@@ -4,11 +4,11 @@ const stance = document.getElementById("stance");
 
 const stances = [
   "Ungültig",
-  "Ich bin Krank",
-  "Ich bin Krank",
-  "Ich bin Gesund",
-  "Ich bin Gesund",
-  "Ich bin Wunschlos Glücklich",
+  "nicht wichtig",
+  "nicht wichtig",
+  "ein wenig",
+  "ein wenig",
+  "sehr wichtig",
 ];
 
 stance.innerHTML = `<b>${stances[slider.value]}</b>`;

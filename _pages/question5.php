@@ -27,9 +27,9 @@ if (isset($_POST['custom_a'])) {
 
         <hr />
 
-        <form class="px-4" action="index.php?seite=question6" method="POST" onsubmit="return validateRange();">
-          <h3>Menge :</h3>
-          <p><strong>Hast du das Gefühl, zu wenig, genügend oder zu viel Körperlich aktiv zu sein:</strong></p>
+        <form class="px-4" action="index.php?seite=question6" method="POST">
+        <h3>Gefühl zu meinen Aktivitäten</h3>
+          <p><strong>Hast du das Gefühl, zu wenig, genügend oder viel zu viel zusätzliche körperliche Aktivitäten zu betreiben?</strong></p>
 
           <div class="form-check mb-2">
             <label for="range-slider__range" id="stance" class="form-label">0</label>

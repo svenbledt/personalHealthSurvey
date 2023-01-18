@@ -95,36 +95,7 @@ if ($arraycheck < 12) {
                                 </div>
                                 <p class="mt-4 mb-1" style="font-size: .77rem;"><b>4. Zusätzliche Aktivitäten</b></p>
                                 <p class="text-muted mb-0">
-                                    <?php
-                                    if ($_SESSION['custom_a'] == "") {
-                                        if ($_SESSION['plus_activity'] == 1) {
-                                            echo "Proband geht ins Gym.";
-                                        } else if ($_SESSION['plus_activity'] == 2) {
-                                            echo "Mag Spaziergänge.";
-                                        } else if ($_SESSION['plus_activity'] == 3) {
-                                            echo "Geht gerne in die Berge.";
-                                        } else if ($_SESSION['plus_activity'] == 4) {
-                                            echo "Joggt sehr gerne.";
-                                        } else if ($_SESSION['plus_activity'] == 5) {
-                                            echo "Ist ein Sprinter seinesgleichen.";
-                                        } else if ($_SESSION['plus_activity'] == 6) {
-                                            echo "Schwimmt wie ein Fisch.";
-                                        } else if ($_SESSION['plus_activity'] == 7) {
-                                            echo "Tanzt gerne.";
-                                        } else if ($_SESSION['plus_activity'] == 8) {
-                                            echo "Mag Aerobic.";
-                                        } else if ($_SESSION['plus_activity'] == 9) {
-                                            echo "Mag Pilates.";
-                                        } else if ($_SESSION['plus_activity'] == 10) {
-                                            echo "Ist ein Teamsportler.";
-                                        } else if ($_SESSION['plus_activity'] == 11) {
-                                            echo "Betreibt keinerlei Sport.";
-                                        }
-                                    } else {
-                                        $custom_a = $_SESSION['custom_a'];
-                                        echo "Praktiziert $custom_a.";
-                                    }
-                                    ?>
+                                    <?php echo $question4; ?>
                                 </p>
                                 <p class="mt-4 mb-1" style="font-size: .77rem;"><b>5. Menge an Aktivität</b></p>
                                 <div class="progress rounded" style="height: 5px;">

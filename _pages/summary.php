@@ -80,7 +80,7 @@ if ($arraycheck < 12) {
                                 <p class="text-muted mb-0">
                                     <?php
                                     if ($_SESSION['additionals'] == true) {
-                                        echo "Nimt Nahrungsergänzungsmittel zu sich.";
+                                        echo "Nimmt Nahrungsergänzungsmittel zu sich.";
                                     } else {
                                         echo "Nimmt keine Nahrungsergänzungsmittel zu sich.";
                                     }

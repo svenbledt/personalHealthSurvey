@@ -7,7 +7,7 @@ if (isset($_POST['name']) && $_POST['name'] != '') {
 } else {
     header('Location: index.php?seite=question10');
 }
-if ($arraycheck < 11) {
+if ($arraycheck < 12) {
     header('Location: index.php?seite=index&arraycheck=true');
 }
 ?>

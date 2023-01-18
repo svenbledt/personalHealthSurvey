@@ -2,7 +2,6 @@
 <html lang="en" class="h-100">
 <?php
 require('config.php');
-$arraycheck = count($_SESSION);
 ?>
 
 <head>
@@ -83,7 +82,7 @@ $arraycheck = count($_SESSION);
                             echo ' active';
                         } ?>" href="index.php?seite=question10">Frage 10</a>
                     </li>
-                    <?php if ($arraycheck > 10) { ?>
+                    <?php if ($arraycheck > 11) { ?>
                         <li class="nav-item">
                             <a class="nav-link<?php if ($_SERVER['REQUEST_URI'] === '/index.php?seite=summary') {
                                 echo ' active';

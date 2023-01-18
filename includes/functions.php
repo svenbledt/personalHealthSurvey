@@ -7,6 +7,9 @@ if (isset($_SESSION['LAST_ACTIVITY']) && (time() - $_SESSION['LAST_ACTIVITY'] > 
 }
 $_SESSION['LAST_ACTIVITY'] = time(); // update last activity time stamp
 
+// arraycheck 
+$arraycheck = count($_SESSION);
+
 // Home POST collector
 if (isset($_POST['range1'])) {
     $_SESSION['range_home'] = $_POST['range1'];

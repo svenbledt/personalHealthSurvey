@@ -18,7 +18,7 @@ if ($arraycheck < 12) {
         <div class="row">
             <div class="col-lg-4">
                 <div class="card mb-4">
-                    <div class="card-body text-center">
+                    <div class="finish card-body text-center">
                         <img src="/img/user.png"
                             alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
                         <h5 class="my-3">
@@ -35,7 +35,7 @@ if ($arraycheck < 12) {
             </div>
             <div class="col-lg-8">
                 <div class="card mb-4">
-                    <div class="card-body">
+                    <div class="finish card-body">
                         <div class="row">
                             <div class="col-sm-3">
                                 <p class="mb-0">Vorname</p>
@@ -50,7 +50,7 @@ if ($arraycheck < 12) {
                 </div>
                 <div class="col-lg-8">
                 <div class="card mb-4">
-                    <div class="card-body">
+                    <div class="finish card-body">
                         <div class="row">
                             <div class="col-sm-3">
                                 <p class="mb-0">Nachname</p>
@@ -66,7 +66,7 @@ if ($arraycheck < 12) {
                 <div class="row">
                     <div class="col-md-6">
                         <div class="card mb-4 mb-md-0">
-                            <div class="card-body">
+                            <div class="finish card-body">
                                 <p class="mb-4"><span class="text-primary font-italic me-1">Resume</span> Aktivität
                                 </p>
                                 <p class="mb-1" style="font-size: .77rem;">1. Gesundheit</p>
@@ -105,7 +105,7 @@ if ($arraycheck < 12) {
                     </div>
                     <div class="col-md-6">
                         <div class="card mb-4 mb-md-0">
-                            <div class="card-body">
+                            <div class="finish card-body">
                                 <p class="mb-4"><span class="text-primary font-italic me-1">Resume</span> Ernährung
                                 </p>
                                 <p class="mt-4 mb-1" style="font-size: .77rem;">6. Menge an Kohlehydraten</p>

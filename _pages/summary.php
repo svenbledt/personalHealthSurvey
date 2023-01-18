@@ -116,7 +116,7 @@ if ($arraycheck < 12) {
                                 <p class="text-muted mb-0">
                                     <?php
                                     $meals_kh = $_SESSION['meals_kh'];
-                                    echo "Der Proband isst $meals_kh Kohlehydrate pro Tag.";
+                                    echo "Der Proband isst $meals_kh Mahlzeiten mit Kohlehydrate pro Tag.";
                                     ?>
                                 </p>
                                 <p class="mt-4 mb-1" style="font-size: .77rem;"><b>7. Menge an Proteine</b></p>
@@ -144,7 +144,7 @@ if ($arraycheck < 12) {
                                 <p class="text-muted mb-0">
                                     <?php
                                     $meals_mw = $_SESSION['meals_mw'];
-                                    echo "Der Proband isst $meals_mw Mahlzeiten mit Mikrowelle pro Tag.";
+                                    echo "Der Proband isst $meals_mw Mahlzeiten mit Mikrowellenzubereitung oder Vertig-Essen pro Tag.";
                                     ?>
                                 </p>
                             </div>

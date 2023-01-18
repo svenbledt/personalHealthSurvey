@@ -14,9 +14,9 @@ if (isset($_POST['range1'])) {
 
 // Question2 collector
 if (isset($_POST)) {
-    if ($_POST['noIDont'] == true) {
+    if ($_POST['question'] == "no") {
         $_SESSION['additionals'] = false;
-    } else if ($_POST['yesIDo'] == true) {
+    } else if ($_POST['question'] == "yes") {
         $_SESSION['additionals'] = true;
     }
 }

@@ -117,6 +117,8 @@ if ($arraycheck < 12) {
                                             echo "Mag Pilates.";
                                         } else if ($_SESSION['plus_activity'] == 10) {
                                             echo "Ist ein Teamsportler.";
+                                        } else if ($_SESSION['plus_activity'] == 11) {
+                                            echo "Betreibt keinerlei Sport.";
                                         }
                                     } else {
                                         $custom_a = $_SESSION['custom_a'];
@@ -182,5 +184,4 @@ if ($arraycheck < 12) {
         </div>
     </div>
 </section>
-<?php
-include('includes/footer.php');?>
+<?php include('includes/footer.php'); ?>

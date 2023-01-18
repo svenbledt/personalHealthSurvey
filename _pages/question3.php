@@ -42,4 +42,4 @@ require('includes/header.php');
   </div>
 </div>
 <!-- SITE CONTENT END -->
-<?php include('includes/footer.php');?>
+<?php include('includes/footer.php')?>

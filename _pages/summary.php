@@ -19,8 +19,7 @@ if ($arraycheck < 12) {
             <div class="col-lg-4">
                 <div class="card mb-4">
                     <div class="finish card-body text-center">
-                        <img src="/img/user.png"
-                            alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
+                        <img src="/img/user.png" alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
                         <h5 class="my-3">
                             <?php echo $_SESSION['name']; ?>
                             <?php echo $_SESSION['lname']; ?>
@@ -48,7 +47,6 @@ if ($arraycheck < 12) {
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8">
                 <div class="card mb-4">
                     <div class="finish card-body">
                         <div class="row">

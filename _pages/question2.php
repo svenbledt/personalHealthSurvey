@@ -26,13 +26,13 @@ require('includes/header.php');
 
           <h3>Nimmst du Narungsergänzungsmittel ?</h3>
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="yesIDo" id="flexRadioDisabled">
+            <input class="form-check-input" type="radio" name="question" id="yes" value="yes">
             <label class="form-check-label" for="flexRadioDisabled">
               Ja mehme ich
             </label>
           </div>
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="noIDont" id="flexRadioCheckedDisabled">
+            <input class="form-check-input" type="radio" name="question" id="no" value="no">
             <label class="form-check-label" for="flexRadioCheckedDisabled">
               Nein gar nicht
             </label>

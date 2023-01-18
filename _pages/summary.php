@@ -112,39 +112,39 @@ if ($arraycheck < 12) {
                             <div class="finish card-body">
                                 <p class="mb-4"><span class="text-primary font-italic me-1">Resume</span> Ernährung
                                 </p>
-                                <p class="mt-4 mb-1" style="font-size: .77rem;"><b>6. Menge an Kohlehydraten</b></p>
+                                <p class="mt-4 mb-1" style="font-size: .77rem;"><b>6. Menge an Kohlehydraten.</b></p>
                                 <p class="text-muted mb-0">
                                     <?php
                                     $meals_kh = $_SESSION['meals_kh'];
                                     echo "Der Proband isst $meals_kh Mahlzeiten mit Kohlehydrate pro Tag.";
                                     ?>
                                 </p>
-                                <p class="mt-4 mb-1" style="font-size: .77rem;"><b>7. Menge an Proteine</b></p>
+                                <p class="mt-4 mb-1" style="font-size: .77rem;"><b>7. Menge an Proteine.</b></p>
                                 <p class="text-muted mb-0">
                                     <?php
                                     $meals_pro = $_SESSION['meals_pro'];
                                     echo "Der Proband isst $meals_pro Mahlzeiten mit Proteinen pro Tag.";
                                     ?>
                                 </p>
-                                <p class="mt-4 mb-1" style="font-size: .77rem;"><b>8. Menge an Gemüse</b></p>
+                                <p class="mt-4 mb-1" style="font-size: .77rem;"><b>8. Menge an Gemüse.</b></p>
                                 <p class="text-muted mb-0">
                                     <?php
                                     $meals_veg = $_SESSION['meals_veg'];
                                     echo "Der Proband isst $meals_veg Mahlzeiten mit Gemüse pro Tag.";
                                     ?>
                                 </p>
-                                <p class="mt-4 mb-1" style="font-size: .77rem;"><b>9. Mahlzeiten mit Früchte</b></p>
+                                <p class="mt-4 mb-1" style="font-size: .77rem;"><b>9. Mahlzeiten mit Früchte.</b></p>
                                 <p class="text-muted mb-0">
                                     <?php
                                     $meals_fr = $_SESSION['meals_fr'];
                                     echo "Der Proband isst $meals_fr Mahlzeiten mit Früchten pro Tag.";
                                     ?>
                                 </p>
-                                <p class="mt-4 mb-1" style="font-size: .77rem;"><b>10. Mahlzeiten mit Mikrowelle</b></p>
+                                <p class="mt-4 mb-1" style="font-size: .77rem;"><b>10. Mahlzeiten mit Mikrowellen- oder Fertigzubereitet am Tag.</b></p>
                                 <p class="text-muted mb-0">
                                     <?php
                                     $meals_mw = $_SESSION['meals_mw'];
-                                    echo "Der Proband isst $meals_mw Mahlzeiten mit Mikrowellenzubereitung oder Vertig-Essen pro Tag.";
+                                    echo "$meals_mw Fertigmahlzeiten pro Tag.";
                                     ?>
                                 </p>
                             </div>

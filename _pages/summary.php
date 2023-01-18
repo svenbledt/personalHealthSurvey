@@ -1,7 +1,7 @@
 <?php
 $pagename = "Zusammenfassung";
 require('includes/header.php');
-if (isset($_POST['name']) && isset($_POST['lname']) && $_POST['name'] != '' && $_POST['lname'] != '') {
+if (isset($_POST['name']) && isset($_POST['lname']) && $_POST['name'] != '' && $_POST['lname'] != '' && strlen($_POST['name']) > 2 && strlen($_POST['lname']) > 2 && !is_numeric($_POST['name']) && !is_numeric($_POST['lname'])) {
     $_SESSION['name'] = $_POST['name'];
     $_SESSION['lname'] = $_POST['lname'];
 } else if (isset($_SESSION['name']) && isset($_SESSION['lname'])) {

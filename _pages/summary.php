@@ -1,9 +1,10 @@
 <?php
 $pagename = "Zusammenfassung";
 require('includes/header.php');
-if (isset($_POST['name']) && $_POST['name'] != '') {
+if (isset($_POST['name']) && isset($_POST['lname']) && $_POST['name'] != '' && $_POST['lname'] != '') {
     $_SESSION['name'] = $_POST['name'];
-} else if (isset($_SESSION['name'])) {
+    $_SESSION['lname'] = $_POST['lname'];
+} else if (isset($_SESSION['name']) && isset($_SESSION['lname'])) {
 } else {
     header('Location: index.php?seite=question10');
 }
@@ -22,6 +23,7 @@ if ($arraycheck < 11) {
                             alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
                         <h5 class="my-3">
                             <?php echo $_SESSION['name']; ?>
+                            <?php echo $_SESSION['lname']; ?>
                         </h5>
                         <p class="text-muted mb-1">Testobjekt</p>
                         <div class="d-flex justify-content-center mb-2">
@@ -36,11 +38,26 @@ if ($arraycheck < 11) {
                     <div class="card-body">
                         <div class="row">
                             <div class="col-sm-3">
-                                <p class="mb-0">Name</p>
+                                <p class="mb-0">Vorname</p>
                             </div>
                             <div class="col-sm-9">
                                 <p class="text-muted mb-0">
                                     <?php echo $_SESSION['name']; ?>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <p class="mb-0">Nachname</p>
+                            </div>
+                            <div class="col-sm-9">
+                                <p class="text-muted mb-0">
+                                    <?php echo $_SESSION['lname']; ?>
                                 </p>
                             </div>
                         </div>

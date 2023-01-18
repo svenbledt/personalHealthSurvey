@@ -53,6 +53,9 @@ require('includes/header.php');
 
             <input type="radio" class="btn-check" name="btnradio" id="btnradio10" value="10" autocomplete="off">
             <label class="btn btn-outline-primary my-3" for="btnradio10">Team Sport</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio11" value="11" autocomplete="off">
+            <label class="btn btn-outline-primary my-3" for="btnradio10">Kein Sport</label>
           </div>
 
 

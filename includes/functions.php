@@ -37,6 +37,36 @@ if (isset($_POST['custom_a'])) {
     $_SESSION['custom_a'] = $_POST['custom_a'];
 }
 
+// Question4 extractor
+if ($_SESSION['custom_a'] == "") {
+    if ($_SESSION['plus_activity'] == 1) {
+        $question4 = "Proband geht ins Gym.";
+    } else if ($_SESSION['plus_activity'] == 2) {
+        $question4 = "Mag Spaziergänge.";
+    } else if ($_SESSION['plus_activity'] == 3) {
+        $question4 = "Geht gerne in die Berge.";
+    } else if ($_SESSION['plus_activity'] == 4) {
+        $question4 = "Joggt sehr gerne.";
+    } else if ($_SESSION['plus_activity'] == 5) {
+        $question4 = "Ist ein Sprinter seinesgleichen.";
+    } else if ($_SESSION['plus_activity'] == 6) {
+        $question4 = "Schwimmt wie ein Fisch.";
+    } else if ($_SESSION['plus_activity'] == 7) {
+        $question4 = "Tanzt gerne.";
+    } else if ($_SESSION['plus_activity'] == 8) {
+        $question4 = "Mag Aerobic.";
+    } else if ($_SESSION['plus_activity'] == 9) {
+        $question4 = "Mag Pilates.";
+    } else if ($_SESSION['plus_activity'] == 10) {
+        $question4 = "Ist ein Teamsportler.";
+    } else if ($_SESSION['plus_activity'] == 11) {
+        $question4 = "Betreibt keinerlei Sport.";
+    }
+} else {
+    $custom_a = $_SESSION['custom_a'];
+    $question4 = "Praktiziert $custom_a.";
+}
+
 // Question5 collector
 if (isset($_POST['range3'])) {
     $_SESSION['range_5'] = $_POST['range3'];

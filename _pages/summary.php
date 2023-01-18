@@ -1,13 +1,15 @@
 <?php
 $pagename = "Zusammenfassung";
-require('includes/header.php');
 if (isset($_POST['name']) && isset($_POST['lname']) && $_POST['name'] != '' && $_POST['lname'] != '' && strlen($_POST['name']) > 2 && strlen($_POST['lname']) > 2 && !is_numeric($_POST['name']) && !is_numeric($_POST['lname'])) {
     $_SESSION['name'] = $_POST['name'];
     $_SESSION['lname'] = $_POST['lname'];
+    $name = $_SESSION['name'];
+    $lname = $_SESSION['lname'];
 } else if (isset($_SESSION['name']) && isset($_SESSION['lname'])) {
 } else {
     header('Location: index.php?seite=question10');
 }
+require('includes/header.php');
 if ($arraycheck < 12) {
     header('Location: index.php?seite=index&arraycheck=true');
 }
@@ -37,7 +39,7 @@ if ($arraycheck < 12) {
                     <div class="finish card-body">
                         <div class="row">
                             <div class="col-sm-3">
-                                <p class="mb-0">Vorname</p>
+                                <p class="mb-0"><b>Vorname</b></p>
                             </div>
                             <div class="col-sm-9">
                                 <p class="text-muted mb-0">
@@ -51,7 +53,7 @@ if ($arraycheck < 12) {
                     <div class="finish card-body">
                         <div class="row">
                             <div class="col-sm-3">
-                                <p class="mb-0">Nachname</p>
+                                <p class="mb-0"><b>Nachname</b></p>
                             </div>
                             <div class="col-sm-9">
                                 <p class="text-muted mb-0">
@@ -67,31 +69,62 @@ if ($arraycheck < 12) {
                             <div class="finish card-body">
                                 <p class="mb-4"><span class="text-primary font-italic me-1">Resume</span> Aktivität
                                 </p>
-                                <p class="mb-1" style="font-size: .77rem;">1. Gesundheit</p>
+                                <p class="mb-1" style="font-size: .77rem;"><b>1. Gesundheit</b></p>
                                 <div class="progress rounded" style="height: 5px;">
                                     <div class="progress-bar" role="progressbar"
                                         style="width: <?php echo ($_SESSION['range_home'] * 20); ?>%"
                                         aria-valuenow="<?php echo ($_SESSION['range_home'] * 20); ?>" aria-valuemin="0"
                                         aria-valuemax="100"></div>
                                 </div>
-                                <p class="mt-4 mb-1" style="font-size: .77rem;">2. Nahrungsergänzungsmittel</p>
-                                <div class="progress rounded" style="height: 5px;">
-                                    <div class="progress-bar" role="progressbar" style="width: 72%" aria-valuenow="72"
-                                        aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <p class="mt-4 mb-1" style="font-size: .77rem;">3. Körperliche Aktivitäten</p>
+                                <p class="mt-4 mb-1" style="font-size: .77rem;"><b>2. Nahrungsergänzungsmittel</b></p>
+                                <p class="text-muted mb-0">
+                                    <?php
+                                    if ($_SESSION['additionals'] == true) {
+                                        echo "Nimt Nahrungsergänzungsmittel zu sich.";
+                                    } else {
+                                        echo "Nimt keine Nahrungsergänzungsmittel zu sich.";
+                                    }
+                                    ?>
+                                </p>
+                                <p class="mt-4 mb-1" style="font-size: .77rem;"><b>3. Körperliche Aktivitäten</b></p>
                                 <div class="progress rounded" style="height: 5px;">
                                     <div class="progress-bar" role="progressbar"
                                         style="width: <?php echo ($_SESSION['range_3'] * 20); ?>%"
                                         aria-valuenow="<?php echo ($_SESSION['range_3'] * 20); ?>" aria-valuemin="0"
                                         aria-valuemax="100"></div>
                                 </div>
-                                <p class="mt-4 mb-1" style="font-size: .77rem;"> 4. Zusätzliche Aktivitäten</p>
-                                <div class="progress rounded" style="height: 5px;">
-                                    <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="55"
-                                        aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <p class="mt-4 mb-1" style="font-size: .77rem;"> 5. Menge an Aktivität</p>
+                                <p class="mt-4 mb-1" style="font-size: .77rem;"><b>4. Zusätzliche Aktivitäten</b></p>
+                                <p class="text-muted mb-0">
+                                    <?php
+                                    if ($_SESSION['custom_a'] == "") {
+                                        if ($_SESSION['plus_activity'] == 1) {
+                                            echo "Proband geht ins Gym.";
+                                        } else if ($_SESSION['plus_activity'] == 2) {
+                                            echo "Mag Spaziergänge.";
+                                        } else if ($_SESSION['plus_activity'] == 3) {
+                                            echo "Geht gerne in die Berge.";
+                                        } else if ($_SESSION['plus_activity'] == 4) {
+                                            echo "Joggt sehr gerne.";
+                                        } else if ($_SESSION['plus_activity'] == 5) {
+                                            echo "Ist ein Sprinter seinesgleichen.";
+                                        } else if ($_SESSION['plus_activity'] == 6) {
+                                            echo "Schwimmt wie ein Fisch.";
+                                        } else if ($_SESSION['plus_activity'] == 7) {
+                                            echo "Tanzt gerne.";
+                                        } else if ($_SESSION['plus_activity'] == 8) {
+                                            echo "Mag Aerobic.";
+                                        } else if ($_SESSION['plus_activity'] == 9) {
+                                            echo "Mag Pilates.";
+                                        } else if ($_SESSION['plus_activity'] == 10) {
+                                            echo "Ist ein Teamsportler.";
+                                        }
+                                    } else {
+                                        $custom_a = $_SESSION['custom_a'];
+                                        echo "Praktiziert $custom_a.";
+                                    }
+                                    ?>
+                                </p>
+                                <p class="mt-4 mb-1" style="font-size: .77rem;"><b>5. Menge an Aktivität</b></p>
                                 <div class="progress rounded" style="height: 5px;">
                                     <div class="progress-bar" role="progressbar"
                                         style="width: <?php echo ($_SESSION['range_5'] * 20); ?>%"
@@ -106,31 +139,41 @@ if ($arraycheck < 12) {
                             <div class="finish card-body">
                                 <p class="mb-4"><span class="text-primary font-italic me-1">Resume</span> Ernährung
                                 </p>
-                                <p class="mt-4 mb-1" style="font-size: .77rem;">6. Menge an Kohlehydraten</p>
-                                <div class="progress rounded" style="height: 5px;">
-                                    <div class="progress-bar" role="progressbar" style="width: 72%" aria-valuenow="72"
-                                        aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <p class="mt-4 mb-1" style="font-size: .77rem;">7. Menge an Proteine</p>
-                                <div class="progress rounded" style="height: 5px;">
-                                    <div class="progress-bar" role="progressbar" style="width: 89%" aria-valuenow="89"
-                                        aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <p class="mt-4 mb-1" style="font-size: .77rem;">8. Menge an Gemüse</p>
-                                <div class="progress rounded" style="height: 5px;">
-                                    <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="55"
-                                        aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <p class="mt-4 mb-1" style="font-size: .77rem;">Mahlzeiten mit Früchte</p>
-                                <div class="progress rounded mb-2" style="height: 5px;">
-                                    <div class="progress-bar" role="progressbar" style="width: 66%" aria-valuenow="66"
-                                        aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <p class="mt-4 mb-1" style="font-size: .77rem;">Mahlzeiten mit Mikrowelle</p>
-                                <div class="progress rounded mb-2" style="height: 5px;">
-                                    <div class="progress-bar" role="progressbar" style="width: 66%" aria-valuenow="66"
-                                        aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
+                                <p class="mt-4 mb-1" style="font-size: .77rem;"><b>6. Menge an Kohlehydraten</b></p>
+                                <p class="text-muted mb-0">
+                                    <?php
+                                    $meals_kh = $_SESSION['meals_kh'];
+                                    echo "Der Proband isst $meals_kh Kohlehydrate pro Tag.";
+                                    ?>
+                                </p>
+                                <p class="mt-4 mb-1" style="font-size: .77rem;"><b>7. Menge an Proteine</b></p>
+                                <p class="text-muted mb-0">
+                                    <?php
+                                    $meals_pro = $_SESSION['meals_pro'];
+                                    echo "Der Proband isst $meals_pro Mahlzeiten mit Proteinen pro Tag.";
+                                    ?>
+                                </p>
+                                <p class="mt-4 mb-1" style="font-size: .77rem;"><b>8. Menge an Gemüse</b></p>
+                                <p class="text-muted mb-0">
+                                    <?php
+                                    $meals_veg = $_SESSION['meals_veg'];
+                                    echo "Der Proband isst $meals_veg Mahlzeiten mit Gemüse pro Tag.";
+                                    ?>
+                                </p>
+                                <p class="mt-4 mb-1" style="font-size: .77rem;"><b>9. Mahlzeiten mit Früchte</b></p>
+                                <p class="text-muted mb-0">
+                                    <?php
+                                    $meals_fr = $_SESSION['meals_fr'];
+                                    echo "Der Proband isst $meals_fr Mahlzeiten mit Früchten pro Tag.";
+                                    ?>
+                                </p>
+                                <p class="mt-4 mb-1" style="font-size: .77rem;"><b>10. Mahlzeiten mit Mikrowelle</b></p>
+                                <p class="text-muted mb-0">
+                                    <?php
+                                    $meals_mw = $_SESSION['meals_mw'];
+                                    echo "Der Proband isst $meals_mw Mahlzeiten mit Mikrowelle pro Tag.";
+                                    ?>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -140,7 +183,4 @@ if ($arraycheck < 12) {
     </div>
 </section>
 <?php
-include('includes/footer.php');
-print_r($_SESSION);
-print_r($_POST);
-?>
+include('includes/footer.php');?>

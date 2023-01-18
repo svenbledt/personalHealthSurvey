@@ -82,7 +82,7 @@ if ($arraycheck < 12) {
                                     if ($_SESSION['additionals'] == true) {
                                         echo "Nimt Nahrungsergänzungsmittel zu sich.";
                                     } else {
-                                        echo "Nimt keine Nahrungsergänzungsmittel zu sich.";
+                                        echo "Nimmt keine Nahrungsergänzungsmittel zu sich.";
                                     }
                                     ?>
                                 </p>

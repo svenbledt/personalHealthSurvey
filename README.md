@@ -26,8 +26,12 @@
 - GitHub: [@svenbledt](https://github.com/svenbledt)
 
 ## Resources
-### Figma
-[![My Skills](https://skillicons.dev/icons?i=figma&theme=light)](https://www.figma.com/file/6sSx8GKmWpXVh8UONev9ZI/Gesundheits-Seite?node-id=0%3A1&t=XgXWG4IIqRusowsD-1)
+### Figma&nbsp;&nbsp;&nbsp;VSCode&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PHP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JS
+[![My Skills](https://skillicons.dev/icons?i=figma&theme=dark)](https://www.figma.com/file/6sSx8GKmWpXVh8UONev9ZI/Gesundheits-Seite?node-id=0%3A1&t=XgXWG4IIqRusowsD-1)&nbsp;&nbsp;&nbsp;
+[![VSCode](https://skillicons.dev/icons?i=vscode)](https://code.visualstudio.com/)&nbsp;&nbsp;&nbsp;
+[![PHP](https://skillicons.dev/icons?i=php)](https://php.net)&nbsp;&nbsp;&nbsp;
+[![Javascript](https://skillicons.dev/icons?i=js)](https://https://www.javascript.com/)
+
 ## Show your support
 
 Give a ⭐️ if this project helped you!

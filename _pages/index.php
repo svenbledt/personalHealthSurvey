@@ -4,12 +4,12 @@ require('includes/header.php');
 ?>
 <script src="../js/validation/slider_home.js" type="text/javascript" defer></script>
 <!-- SITE CONTENT -->
-<div class="mt-4 mx-0 mx-sm-auto">
+<div class="mt-2 mx-0 mx-sm-auto">
   <div class="container-md">
     <div class="card">
       <div class="card-body">
         <div class="text-center">
-          <i class="far fa-file-alt fa-4x mb-3 text-primary"></i>
+        <img src="/img/care.png" alt="careLogo" class="rounded-circle img-fluid" style="width: 150px;">
           <p><!--Antwort auf arrayceck-->
             <?php if ($_GET['arraycheck'] == true) {
               echo "<strong><font color='red'>Bitte fülle alle Fragen aus. Du scheinst etwas vergessen zu haben.</font></strong>";

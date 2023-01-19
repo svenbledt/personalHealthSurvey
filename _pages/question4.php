@@ -3,13 +3,13 @@ $pagename = "Frage 4";
 require('includes/header.php');
 ?>
 <!-- SITE CONTENT -->
-<div class="mt-4 mx-0 mx-sm-auto">
+<div class="mt-2 mx-0 mx-sm-auto">
   <div class="container-md">
 
     <div class="card">
       <div class="card-body">
         <div class="text-center">
-          <i class="far fa-file-alt fa-4x mb-3 text-primary"></i>
+        <img src="/img/care.png" alt="careLogo" class="rounded-circle img-fluid" style="width: 150px;">
           <p>
             <strong>Wie gesund bist du Wirklich?</strong>
           </p>

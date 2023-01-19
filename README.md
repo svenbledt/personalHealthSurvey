@@ -34,7 +34,9 @@
 
 
 ## Retrospection
-<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVPw5ltVs=/?moveToViewport=-1687,-955,3607,1690&embedId=678019230349" frameborder="0" scrolling="no" allow="clipboard-read;"></iframe>
+
+[![Retro](https://github.com/svenbledt/personalHealthSurvey/blob/master/Retrospection%20Project%20Dani%20&%20Sven.jpg?raw=true)](https://miro.com/app/board/uXjVPw5ltVs=/?share_link_id=108063928459)
+
 ## Show your support
 
 Give a ⭐️ if this project helped you!

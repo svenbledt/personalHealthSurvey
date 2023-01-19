@@ -32,6 +32,9 @@
 [![PHP](https://skillicons.dev/icons?i=php)](https://php.net)&nbsp;&nbsp;&nbsp;
 [![Javascript](https://skillicons.dev/icons?i=js)](https://https://www.javascript.com/)
 
+
+## Retrospection
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVPw5ltVs=/?moveToViewport=-1687,-955,3607,1690&embedId=678019230349" frameborder="0" scrolling="no" allow="clipboard-read;"></iframe>
 ## Show your support
 
 Give a ⭐️ if this project helped you!

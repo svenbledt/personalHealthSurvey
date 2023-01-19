@@ -19,10 +19,10 @@ require('includes/header.php');
         </div>
 
         <hr />
-        <!--hier kommen die einzelnen Eingaben hin-->
+     
         <form class="px-4" action="index.php?seite=question9" method="POST">
           <h3>Gemüse Zähler</h3>
-
+          <!--input-groupmit Numerischem eingabefeld Frage 6-->
           <label for="vegetables">
             An einem typischen Tag: Wie viele deiner
             Malzeiten oder Snacks enthalten

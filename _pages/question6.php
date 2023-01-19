@@ -20,7 +20,7 @@ require('includes/header.php');
         </div>
 
         <hr />
-        <!--hier kommen die einzelnen Eingaben hin-->
+       
         <form class="px-4" action="index.php?seite=question7" method="POST">
           <h3>Kohlenhydrate Zähler</h3>anzahl
           <label for="carbohydrates">
@@ -28,6 +28,7 @@ require('includes/header.php');
             Malzeiten oder Snacks enthalten
             Kohlenhydrate?
           </label>
+          <!--input-groupmit Numerischem eingabefeld Frage 6-->
           <div class="input-group mb-3">
             <div class="input-group-prepend">
               <span class="input-group-text" id="inputGroup-sizing-default">Anzahl</span>

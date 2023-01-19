@@ -29,6 +29,7 @@ require('includes/header.php');
               Malzeiten kommen aus der Mikrowelle
               oder sind schon fertig zubereitet?
             </label>
+            <!--input-groupmit Numerischem und Texteingaben eingabefeld Frage 6-->
             <div class="input-group mb-3">
               <div class="input-group-prepend">
                 <span class="input-group-text" id="inputGroup-sizing-default">Anzahl</span>

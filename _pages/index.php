@@ -10,7 +10,7 @@ require('includes/header.php');
       <div class="card-body">
         <div class="text-center">
           <i class="far fa-file-alt fa-4x mb-3 text-primary"></i>
-          <p>
+          <p><!--Antwort auf arrayceck-->
             <?php if ($_GET['arraycheck'] == true) {
               echo "<strong><font color='red'>Bitte fülle alle Fragen aus. Du scheinst etwas vergessen zu haben.</font></strong>";
             } else {
@@ -24,11 +24,11 @@ require('includes/header.php');
         </div>
 
         <hr />
-
+      
         <form class="px-4" action="index.php?seite=question2" method="POST" onsubmit="return validateRange();">
           <h3>Gesundheit:</h3>
           <p><strong>Wie Gesund bist du Körperlich:</strong></p>
-
+          <!--slider der esten Frage-->
           <div class="form-check mb-2">
             <label for="range-slider__range" id="stance" class="form-label">Ich bin Krank</label>
             <input id="range-slider__range" name="range1" onchange="sliderOnChange()" type="range" value="1" min="1"

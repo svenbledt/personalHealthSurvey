@@ -24,7 +24,7 @@ require('includes/header.php');
         <form class="px-4" action="index.php?seite=question6" method="POST">
         <h3>Gefühl zu meinen Aktivitäten</h3>
           <p><strong>Hast du das Gefühl, zu wenig, genügend oder viel zu viel zusätzliche körperliche Aktivitäten zu betreiben?</strong></p>
-
+          <!--slider Frage 5-->
           <div class="form-check mb-2">
             <label for="range-slider__range" id="stance" class="form-label">0</label>
             <input id="range-slider__range" name="range3" onchange="sliderOnChange()" type="range" value="1" min="1"

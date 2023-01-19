@@ -20,11 +20,11 @@ require('includes/header.php');
         </div>
 
         <hr />
-
+        
         <form class="px-4" action="index.php?seite=question4" method="POST" onsubmit="return validateRange();">
           <h3>Priorität:</h3>
           <p><strong>Wie wichtig ist deine Körperliche Aktivität:</strong></p>
-
+          <!--slider Frage 3-->
           <div class="form-check mb-2">
             <label for="range-slider__range" id="stance" class="form-label">0</label>
             <input id="range-slider__range" name="range2" onchange="sliderOnChange()" type="range" value="1" min="1"

@@ -10,6 +10,7 @@ if (isset($_POST['name']) && isset($_POST['lname']) && $_POST['name'] != '' && $
     header('Location: index.php?seite=question10');
 }
 require('includes/header.php');
+//überprüft ob alle fragen beantworted wurden
 if ($arraycheck < 12) {
     header('Location: index.php?seite=index&arraycheck=true');
 }
@@ -22,11 +23,10 @@ if ($arraycheck < 12) {
                 <div class="card mb-4">
                     <div class="finish card-body text-center">
                         <img src="/img/user.png" alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
-                        <h5 class="my-3">
+                        <h5 class="my-3"><!--Giebt Vor und Nachnamen aus-->
                             <?php echo $_SESSION['name']; ?>
                             <?php echo $_SESSION['lname']; ?>
                         </h5>
-                        <p class="text-muted mb-1">Testobjekt</p>
                         <div class="d-flex justify-content-center mb-2">
                             <button type="button" onclick="deleteAllCookies()"
                                 class="btn btn-primary">Zurücksetzen</button>
@@ -70,7 +70,7 @@ if ($arraycheck < 12) {
                                 <p class="mb-4"><span class="text-primary font-italic me-1">Resume</span> Aktivität
                                 </p>
                                 <p class="mb-1" style="font-size: .77rem;"><b>1. Gesundheit</b></p>
-                                <div class="progress rounded" style="height: 5px;">
+                                <div class="progress rounded" style="height: 5px;"><!--Giebt wert des Sliders Frage 1 aus und multiplziert in mit 20-->
                                     <div class="progress-bar" role="progressbar"
                                         style="width: <?php echo ($_SESSION['range_home'] * 20); ?>%"
                                         aria-valuenow="<?php echo ($_SESSION['range_home'] * 20); ?>" aria-valuemin="0"
@@ -87,7 +87,7 @@ if ($arraycheck < 12) {
                                     ?>
                                 </p>
                                 <p class="mt-4 mb-1" style="font-size: .77rem;"><b>3. Körperliche Aktivitäten</b></p>
-                                <div class="progress rounded" style="height: 5px;">
+                                <div class="progress rounded" style="height: 5px;"><!--Giebt wert des Sliders Frage 3 aus und multiplziert in mit 20-->
                                     <div class="progress-bar" role="progressbar"
                                         style="width: <?php echo ($_SESSION['range_3'] * 20); ?>%"
                                         aria-valuenow="<?php echo ($_SESSION['range_3'] * 20); ?>" aria-valuemin="0"
@@ -111,35 +111,35 @@ if ($arraycheck < 12) {
                         <div class="card mb-4 mb-md-0">
                             <div class="finish card-body">
                                 <p class="mb-4"><span class="text-primary font-italic me-1">Resume</span> Ernährung
-                                </p>
+                                </p><!--Giebt den Zahlenwert der Frage 6 aus -->
                                 <p class="mt-4 mb-1" style="font-size: .77rem;"><b>6. Menge an Kohlehydraten.</b></p>
                                 <p class="text-muted mb-0">
                                     <?php
                                     $meals_kh = $_SESSION['meals_kh'];
                                     echo "Der Proband isst $meals_kh Mahlzeiten mit Kohlehydrate pro Tag.";
                                     ?>
-                                </p>
+                                </p><!--Giebt den Zahlenwert der Frage 7 aus -->
                                 <p class="mt-4 mb-1" style="font-size: .77rem;"><b>7. Menge an Proteine.</b></p>
                                 <p class="text-muted mb-0">
                                     <?php
                                     $meals_pro = $_SESSION['meals_pro'];
                                     echo "Der Proband isst $meals_pro Mahlzeiten mit Proteinen pro Tag.";
                                     ?>
-                                </p>
+                                </p><!--Giebt den Zahlenwert der Frage 8 aus -->
                                 <p class="mt-4 mb-1" style="font-size: .77rem;"><b>8. Menge an Gemüse.</b></p>
                                 <p class="text-muted mb-0">
                                     <?php
                                     $meals_veg = $_SESSION['meals_veg'];
                                     echo "Der Proband isst $meals_veg Mahlzeiten mit Gemüse pro Tag.";
                                     ?>
-                                </p>
+                                </p><!--Giebt den Zahlenwert der Frage 9 aus -->
                                 <p class="mt-4 mb-1" style="font-size: .77rem;"><b>9. Mahlzeiten mit Früchte.</b></p>
                                 <p class="text-muted mb-0">
                                     <?php
                                     $meals_fr = $_SESSION['meals_fr'];
                                     echo "Der Proband isst $meals_fr Mahlzeiten mit Früchten pro Tag.";
                                     ?>
-                                </p>
+                                </p><!--Giebt den Zahlenwert der Frage 10 aus -->
                                 <p class="mt-4 mb-1" style="font-size: .77rem;"><b>10. Mahlzeiten mit Mikrowellen- oder Fertigzubereitet am Tag.</b></p>
                                 <p class="text-muted mb-0">
                                     <?php

@@ -26,6 +26,7 @@ require('includes/header.php');
             An einem typischen Tag: Wie viele deiner
             Malzeiten oder Snacks enthalten Früchte?
           </label>
+          <!--input-groupmit Numerischem eingabefeld Frage 6-->
           <div class="input-group mb-3">
             <div class="input-group-prepend">
               <span class="input-group-text" id="inputGroup-sizing-default">Anzahl</span>

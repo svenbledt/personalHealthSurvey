@@ -20,13 +20,13 @@ require('includes/header.php');
         </div>
 
         <hr />
-        <!--hier kommen die einzelnen Eingaben hin-->
+      
         <h3 class="px-4 text-start"> Welche zusätzliche körperliche Aktivität/en betreibst du am meisten?</h3>
         <form class="px-4" action="index.php?seite=question5" method="post">
           <div class="btn-group" id="button-group" role="group" aria-label="Basic radio toggle button group">
             <input type="radio" class="btn-check" name="btnradio" id="btnradio1" value="1" autocomplete="off" checked>
             <label class="btn btn-outline-primary my-3" for="btnradio1">Gewichte heben</label>
-
+            <!--Radioboxen Frage 4-->
             <input type="radio" class="btn-check" name="btnradio" id="btnradio2" value="2" autocomplete="off">
             <label class="btn btn-outline-primary my-3" for="btnradio2">Gehen</label>
 

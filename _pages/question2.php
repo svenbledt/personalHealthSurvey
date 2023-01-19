@@ -20,10 +20,10 @@ require('includes/header.php');
         </div>
 
         <hr />
-        <!--hier kommen die einzelnen Eingaben hin-->
+
         <form class="px-4" action="index.php?seite=question3" method="POST">
           <p class="text-center"><strong>Deine Bewertung:</strong></p>
-
+          <!--radioboxen Frage 2-->
           <h3>Nimmst du Narungsergänzungsmittel ?</h3>
           <div class="form-check">
             <input class="form-check-input" type="radio" name="question" id="yes" value="yes">

@@ -11,7 +11,7 @@ if (isset($_POST['name']) && isset($_POST['lname']) && $_POST['name'] != '' && $
 }
 require('includes/header.php');
 //überprüft ob alle fragen beantworted wurden
-if ($arraycheck < 12) {
+if ($arraycheck < 13) {
     header('Location: index.php?seite=index&arraycheck=true');
 }
 ?>

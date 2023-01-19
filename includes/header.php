@@ -82,7 +82,7 @@ require('config.php');
                             echo ' active';
                         } ?>" href="index.php?seite=question10">Frage 10</a>
                     </li>
-                    <?php if ($arraycheck > 11) { ?>
+                    <?php if ($arraycheck > 12) { ?>
                         <li class="nav-item">
                             <a class="nav-link<?php if ($_SERVER['REQUEST_URI'] === '/index.php?seite=summary') {
                                 echo ' active';

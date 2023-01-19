@@ -10,7 +10,7 @@ if (isset($_POST['name']) && isset($_POST['lname']) && $_POST['name'] != '' && $
     header('Location: index.php?seite=question10');
 }
 require('includes/header.php');
-if ($arraycheck < 12) {
+if ($arraycheck < 13) {
     header('Location: index.php?seite=index&arraycheck=true');
 }
 ?>

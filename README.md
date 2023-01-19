@@ -1,5 +1,5 @@
 <h1 align="center">Welcome to Frieel 👋</h1>
-<center><img width="30%" src="https://github.com/svenbledt/personalHealthSurvey/raw/master/img/logo.png"></center><br><br>
+<p align="center"><img width="30%" src="https://github.com/svenbledt/personalHealthSurvey/raw/master/img/logo.png"></p><br><br>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/svenbledt/personalHealthSurvey#readme" target="_blank">

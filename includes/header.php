@@ -18,7 +18,7 @@ require('config.php');
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/style.css">
     <!-- Custom JS -->
-    <script src="../js/main.js" type="text/javascript" defer></script>
+    <script src="/js/main.js" type="text/javascript" defer></script>
 </head>
 
 <body class="d-flex flex-column h-100">

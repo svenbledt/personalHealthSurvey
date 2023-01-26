@@ -2,7 +2,7 @@
 $pagename = "Hauptseite";
 require('includes/header.php');
 ?>
-<script src="../js/validation/slider_home.js" type="text/javascript" defer></script>
+<script src="/js/validation/slider_home.js" type="text/javascript" defer></script>
 <!-- SITE CONTENT -->
 <div class="mt-2 mx-0 mx-sm-auto">
   <div class="container-md">

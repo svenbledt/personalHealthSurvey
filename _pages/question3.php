@@ -2,7 +2,7 @@
 $pagename = "Frage 3";
 require('includes/header.php');
 ?>
-<script src="../js/validation/slider_3.js" type="text/javascript" defer></script>
+<script src="/js/validation/slider_3.js" type="text/javascript" defer></script>
 <!-- SITE CONTENT -->
 <div class="mt-2 mx-0 mx-sm-auto">
   <div class="container-md">

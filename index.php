@@ -15,5 +15,4 @@ if(isset($seite)){
 	}
 } else {
 	require("./_pages/index.php"); 
-} 
-?>
+}
